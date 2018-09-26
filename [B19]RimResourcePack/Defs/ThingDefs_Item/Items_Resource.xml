@@ -26,7 +26,7 @@
 <!--カテゴリ、トレードのタグは外す。-->
 	<!--=============== ’Y ====================-->
 
-	<ThingDef ParentName="ResourceVerbBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>RP_Charcoal</defName>
 		<label>charcoal</label>
 		<description>The charcoal.</description>
