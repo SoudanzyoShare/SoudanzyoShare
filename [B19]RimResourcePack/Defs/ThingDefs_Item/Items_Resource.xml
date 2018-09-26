@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!--=============== Base�Q�Ɨp ====================
+	<!--=============== BaseŽQÆ—p ====================
   <ThingDef Name="ResourceBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
@@ -23,7 +23,8 @@
   </ThingDef>
 -->
 
-	<!--=============== �Y ====================-->
+<!--カテゴリ、トレードのタグは外す。-->
+	<!--=============== ’Y ====================-->
 
 	<ThingDef ParentName="ResourceVerbBase">
 		<defName>RP_Charcoal</defName>
@@ -38,10 +39,9 @@
 		<statBases>
 			<MarketValue>1.8</MarketValue>
       			<MaxHitPoints>150</MaxHitPoints>
-      			<Mass>0.4</Mass> 
+      			<Mass>0.2</Mass> 
       			<Flammability>1.0</Flammability>
-			<Mass>0.01</Mass>
-			<DeteriorationRate>0.5</DeteriorationRate>
+			<DeteriorationRate>1</DeteriorationRate>
 			<WorkToMake>500</WorkToMake>
 			<Beauty>1</Beauty>
 		</statBases>
