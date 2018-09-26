@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+<!-- ここで自分が使う素材だけにパッチをあてる -->
+
+<!--↓実際使うときは前後のコメントアウトを外すだけで済む感じ-->
+<!--
+	<!--=============== 炭 ====================-->
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName = "RP_Charcoal"]/thingCategories</xpath>
+    <value>
+      <li>ResourcesRaw</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName = "RP_Charcoal"]/stuffProps</xpath>
+    <value>
+      <commonality>1</commonality>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName = "RP_Charcoal"]/tradeTags</xpath>
+    <value>
+      <li></li>
+    </value>
+  </Operation>
+-->
+
+</Patch>
