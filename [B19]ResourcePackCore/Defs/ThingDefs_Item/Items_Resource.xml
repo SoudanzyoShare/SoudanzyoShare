@@ -56,5 +56,37 @@
 			
 		</tradeTags>
 	</ThingDef>
-
+	
+	
+	<!--=============== 和紙 ====================-->
+	<ThingDef ParentName="ResourceBase">
+		<defName>RPC_JapanesePaper</defName>
+		<label>JapanesePaper</label>
+		<description>The Japanese traditinal paper called "WASHI".</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RPC_JapanesePaper</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+      			<MaxHitPoints>10</MaxHitPoints>
+      			<Mass>0.01</Mass> 
+      			<Flammability>1.5</Flammability>
+			<DeteriorationRate>0.4</DeteriorationRate>
+			<WorkToMake>300</WorkToMake>
+			<Beauty>1</Beauty>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+		</stuffProps>
+		<thingCategories>
+			
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<tradeTags>
+			
+		</tradeTags>
+	</ThingDef>
 </Defs>
