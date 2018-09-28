@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+<!-- このパッチは各自MODのパッチフォルダに移動して使って下さい。
+
+ここで自分が使う素材だけにパッチをあてる。
+↓実際使うときは前後のコメントアウトを外すだけで済む感じ-->
+
+
+	<!--=============== 炭 ====================-->
+<!--
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/thingCategories/text()</xpath>
+    <value>
+      <li>ResourcesRaw</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/stuffProps/commonality/text()</xpath>
+    <value>1</value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/tradeability/text()</xpath>
+    <value>All</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/tradeTags/text()</xpath>
+    <value>
+      <li></li>
+    </value>
+  </Operation>
+
+-->
+
+</Patch>
+
+<!--以下、参考情報
+・thingCategories引数
+		public static ThingCategoryDef Foods;
+		public static ThingCategoryDef FoodMeals;
+		public static ThingCategoryDef Manufactured;
+		public static ThingCategoryDef Root;
+		public static ThingCategoryDef Apparel;
+		public static ThingCategoryDef PlantFoodRaw;
+		public static ThingCategoryDef PlantMatter;
+		public static ThingCategoryDef ResourcesRaw;
+		public static ThingCategoryDef Items;
+		public static ThingCategoryDef BuildingsArt;
+		public static ThingCategoryDef Weapons;
+		public static ThingCategoryDef Medicine;
+		public static ThingCategoryDef Drugs;
+		public static ThingCategoryDef BodyParts;
+		public static ThingCategoryDef Chunks;
+		public static ThingCategoryDef StoneChunks;
+		public static ThingCategoryDef StoneBlocks;
+		public static ThingCategoryDef MeatRaw;
+		public static ThingCategoryDef Leathers;
+		public static ThingCategoryDef Buildings;
+		public static ThingCategoryDef Corpses;
+		public static ThingCategoryDef CorpsesHumanlike;
+		public static ThingCategoryDef CorpsesMechanoid;
+		public static ThingCategoryDef CorpsesInsect;
+		public static ThingCategoryDef CorpsesAnimal;
+	リソースパックのデフォルトは記述なし。
+
+（↓は商人に持ってこさせる場合）
+・Tradeability引数
+		None,
+		Sellable,
+		Buyable,
+		All
+	リソースパックのデフォルトは"Sellable"。商人に持ってこさせたいときはAllあたり。
+
+・tradeTagsは複数指定可能なため"Add"。独自のタグを設定したい場合などに。
+
+・各トレーダーヘの単品追加方法　（以下を追記）
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/TraderKindDef[defName="Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>RPC_Charcoal</thingDef>
+        <countRange>
+          <min>80</min>
+          <max>120</max>
+        </countRange>
+      </li>
+    </value>
+  </Operation>
+	あるいは独自タグ群を追加する場合
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/TraderKindDef[defName="Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
+    <value>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>My_Tag</tradeTag>
+	<price>Normal</price>
+        <countRange>
+          <min>80</min>
+          <max>120</max>
+        </countRange>
+      </li>
+    </value>
+  </Operation>
+	バニラの商人DefNameはTraderKindDefsから。
+
+-->
