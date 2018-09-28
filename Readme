@@ -8,7 +8,7 @@ Currently it is being tested, only Japanese explanation has become.
 パッチを当てなかったリソースはゲームに登場しません。
 
 この性質上、Replaceを行う項目に関しては
-最後に呼び出されたMODのものになります。
+最後に呼び出されたMODのものになります(詳細はPatch_for_RPC.xmlをご覧下さいませ)。
 
 まだたたき台ですので、ご意見、ご要望などありましたらお書き下さい。
 本体編集やリソースの追加などもご自由にどうぞ！
