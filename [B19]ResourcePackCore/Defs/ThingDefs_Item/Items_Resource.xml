@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!--=============== BaseŽQÆ—p ====================
+	<!--=============== Base参照用 ====================
   <ThingDef Name="ResourceBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
@@ -24,7 +24,7 @@
 -->
 
 <!--カテゴリ、トレードのタグは外す。-->
-	<!--=============== ’Y ====================-->
+	<!--=============== 炭 ====================-->
 
 	<ThingDef ParentName="ResourceBase">
 		<defName>RPC_Charcoal</defName>
