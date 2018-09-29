@@ -2,9 +2,12 @@
 <LanguageData>
 
     <RPC_Charcoal.label>炭</RPC_Charcoal.label>
-    <RPC_Charcoal.description>木材を蒸し焼きにし炭化させて作られた炭です。精製工程である「ネラシ」の違いによって白炭、黒炭のような違う性質の木炭が生まれます。</RPC_Charcoal.description>
+    <RPC_Charcoal.description>木材を蒸し焼きにし炭化させて作られた炭です。精製工程である「ネラシ」の違いによって白炭、黒炭のような異なった性質の木炭が生まれます。</RPC_Charcoal.description>
 
     <RPC_JapanesePaper.label>和紙</RPC_JapanesePaper.label>
     <RPC_JapanesePaper.description>日本の伝統的な紙です。楮のような長く丈夫な繊維の植物をを漉いて作ります。薄く、丈夫で保存に適した特徴を持っています。</RPC_JapanesePaper.description>
+
+    <RPC_Parchment.label>羊皮紙</RPC_Parchment.label>
+    <RPC_Parchment.description>動物の皮から作られた、伝統的な筆写や工芸品の材料です。原皮を石灰で脱脂、脱毛した後、展張し表皮や下皮を削ぎ落として作られます。製造には長い時間を要します。</RPC_Parchment.description>
 
 </LanguageData>
