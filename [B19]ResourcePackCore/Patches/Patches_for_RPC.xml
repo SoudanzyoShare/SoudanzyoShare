@@ -65,7 +65,7 @@
 		public static ThingCategoryDef CorpsesMechanoid;
 		public static ThingCategoryDef CorpsesInsect;
 		public static ThingCategoryDef CorpsesAnimal;
-	リソースパックのデフォルトは記述なし。
+	リソースパックのデフォルトは記述なし。利用する場合この項目だけは必須。
 
 （↓は商人に持ってこさせる場合）
 ・Tradeability引数
