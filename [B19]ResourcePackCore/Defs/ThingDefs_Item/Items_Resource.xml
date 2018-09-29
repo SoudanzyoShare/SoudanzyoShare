@@ -24,8 +24,8 @@
 -->
 
 <!--カテゴリ、トレードのタグは外す。-->
+	
 	<!--=============== 炭 ====================-->
-
 	<ThingDef ParentName="ResourceBase">
 		<defName>RPC_Charcoal</defName>
 		<label>charcoal</label>
@@ -67,8 +67,8 @@
 			<texPath>Things/Item/Resource/RPC_JapanesePaper</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
-		<soundInteract>Wood_Drop</soundInteract>
-		<soundDrop>Wood_Drop</soundDrop>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
 		<statBases>
 			<MarketValue>0.5</MarketValue>
       			<MaxHitPoints>10</MaxHitPoints>
@@ -89,4 +89,38 @@
 			
 		</tradeTags>
 	</ThingDef>
+	
+	
+	<!--=============== 羊皮紙 ====================-->
+	<ThingDef ParentName="ResourceBase">
+		<defName>RPC_Parchment</defName>
+		<label>parchment</label>
+		<description>The parchment made from animal skins.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RPC_Parchment</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MarketValue>1.8</MarketValue>
+      			<MaxHitPoints>60</MaxHitPoints>
+      			<Mass>0.01</Mass> 
+      			<Flammability>1.0</Flammability>
+			<DeteriorationRate>0.4</DeteriorationRate>
+			<WorkToMake>500</WorkToMake>
+			<Beauty>0</Beauty>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+		</stuffProps>
+		<thingCategories>
+			
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<tradeTags>
+			
+		</tradeTags>
+	</ThingDef>
+	
 </Defs>
