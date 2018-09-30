@@ -31,7 +31,7 @@
 		<label>dirt</label>
 		<description>A pile of the dirt.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/RPC_Dirt</texPath>
+			<texPath>Things/Item/Resource/RPC_DirtRPC_Dirt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
