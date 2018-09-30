@@ -10,42 +10,46 @@
 	<!--=============== 土と土採集場にレシピ追加 ====================-->
 <!--土関係だけは開発者全員が使用するのでデフォで記述してあります。土を使わないという方は消してください。-->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="RPC_Dirt"]/thingCategories/text()</xpath>
+    <xpath>Defs/ThingDef[defName="RPC_Dirt"]/thingCategories</xpath>
     <value>
-      <li>ResourcesRaw</li>
+      <thingCategories>
+      	<li>ResourcesRaw</li>
+      </thingCategories>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/RecipeDef[defName="RPC_Gathering_Dirt"]/recipeUsers/text()</xpath>
+    <xpath>Defs/RecipeDef[defName="RPC_Gathering_Dirt"]/recipeUsers</xpath>
     <value>
-      <li>RPC_GatheringSpot_Dirt</li>	  
+      <recipeUsers>
+      	<li>RPC_GatheringSpot_Dirt</li>
+      </recipeUsers>
     </value>
   </Operation>
 
 	<!--=============== 炭 ====================-->
 <!--
   <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/thingCategories/text()</xpath>
+    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/thingCategories</xpath>
     <value>
-      <li>ResourcesRaw</li>
+      <thingCategories>
+      	<li>ResourcesRaw</li>
+      </thingCategories>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <success>Always</success>
     <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/stuffProps/commonality/text()</xpath>
     <value>1</value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <success>Always</success>
     <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/tradeability/text()</xpath>
     <value>All</value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/tradeTags/text()</xpath>
+    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/tradeTags</xpath>
     <value>
-      <li></li>
+      <tradeTags>
+      	<li></li>
+      </tradeTags>
     </value>
   </Operation>
 
@@ -94,7 +98,6 @@
 
 ・各トレーダーヘの単品追加方法　（以下を追記）
   <Operation Class="PatchOperationAdd">
-    <success>Always</success>
     <xpath>Defs/TraderKindDef[defName="Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
     <value>
       <li Class="StockGenerator_SingleDef">
@@ -108,7 +111,6 @@
   </Operation>
 	あるいは独自タグ群を追加する場合
   <Operation Class="PatchOperationAdd">
-    <success>Always</success>
     <xpath>Defs/TraderKindDef[defName="Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
     <value>
       <li Class="StockGenerator_Tag">
