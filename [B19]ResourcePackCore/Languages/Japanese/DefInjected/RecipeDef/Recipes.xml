@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <RPC_Gathering_Dirt.label>土を採集する</RPC_Gathering_Dirt.label>
+    <RPC_Gathering_Dirt.description>地面から土を採集します。</RPC_Gathering_Dirt.description>
+    <RPC_Gathering_Dirt.jobString>土を採集中</RPC_Gathering_Dirt.jobString>
+
+</LanguageData>
