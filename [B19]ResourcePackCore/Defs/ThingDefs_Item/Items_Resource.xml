@@ -25,6 +25,39 @@
 
 <!--カテゴリ、トレードのタグは外す。-->
 	
+	<!--=============== 土 ====================-->
+	<ThingDef ParentName="ResourceBase">
+		<defName>RPC_Dirt</defName>
+		<label>dirt</label>
+		<description>A pile of the dirt.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RPC_Dirt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+      			<MaxHitPoints>150</MaxHitPoints>
+      			<Mass>0.4</Mass> 
+      			<Flammability>0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<WorkToMake>100</WorkToMake>
+			<Beauty>-4</Beauty>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+		</stuffProps>
+		<thingCategories>
+			
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<tradeTags>
+			
+		</tradeTags>
+	</ThingDef>
+	
+	
 	<!--=============== 炭 ====================-->
 	<ThingDef ParentName="ResourceBase">
 		<defName>RPC_Charcoal</defName>
