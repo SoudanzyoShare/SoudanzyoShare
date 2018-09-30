@@ -11,7 +11,7 @@
     <RPC_JapanesePaper.description>日本の伝統的な紙です。楮のような長く丈夫な繊維の植物を漉いて作ります。薄く、丈夫で保存に適した特徴を持っています。</RPC_JapanesePaper.description>
 
     <RPC_Parchment.label>羊皮紙</RPC_Parchment.label>
-    <RPC_Parchment.description>動物の皮から作られた、伝統的な筆写や工芸品の材料です。原皮を石灰で脱脂、脱毛した後、展張し表皮や下皮を削ぎ落として作られます。製造には長い時間を要します。</RPC_Parchment.description>
+    <RPC_Parchment.description>動物の皮から作られた、筆写や工芸品の伝統的な材料です。原皮を石灰で脱脂、脱毛した後、展張し表皮や下皮を削ぎ落として作られます。製造には長い時間を要します。</RPC_Parchment.description>
 
     <RPC_PureSilk.label>正絹</RPC_PureSilk.label>
     <RPC_PureSilk.description>混じり物のない絹生地です。絹は繭からとれる動物性繊維で、柔らかくて軽く、吸湿性・通気性に富みます。</RPC_PureSilk.description>
