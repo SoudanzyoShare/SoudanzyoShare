@@ -47,9 +47,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/tradeTags</xpath>
     <value>
-      <tradeTags>
       	<li></li>
-      </tradeTags>
     </value>
   </Operation>
 
