@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-<!-- このパッチは各自MODのパッチフォルダに移動して使って下さい。
+<!-- このパッチは各自MODのパッチフォルダに移動して使って下さい。一般公開時に削除予定。
 
 ここで自分が使う素材だけにパッチをあてる。
 ↓実際使うときは前後のコメントアウトを外すだけでＯＫ-->
@@ -16,8 +16,10 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="RPC_GatheringSpot_Dirt"]/stuffProps/commonality/text()</xpath>
-    <value>1</value>
+    <xpath>Defs/ThingDef[defName="RPC_GatheringSpot_Dirt"]/recipeUsers/text()</xpath>
+    <value>
+      <li>RPC_GatheringSpot_Dirt</li>	  
+    </value>
   </Operation>
 
 	<!--=============== 炭 ====================-->
