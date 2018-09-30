@@ -10,13 +10,13 @@
 	<!--=============== 土と土採集場にレシピ追加 ====================-->
 <!--土関係だけは開発者全員が使用するのでデフォで記述してあります。土を使わないという方は消してください。-->
   <Operation Class="PatchOperationReplace">
-    <xpath>*/ThingDef[defName="RPC_Dirt"]/thingCategories/text()</xpath>
+    <xpath>Defs/ThingDef[defName="RPC_Dirt"]/thingCategories/text()</xpath>
     <value>
       <li>ResourcesRaw</li>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>*/RecipeDef[defName="RPC_Gathering_Dirt"]/recipeUsers/text()</xpath>
+    <xpath>Defs/RecipeDef[defName="RPC_Gathering_Dirt"]/recipeUsers/text()</xpath>
     <value>
       <li>RPC_GatheringSpot_Dirt</li>	  
     </value>
@@ -26,24 +26,24 @@
 <!--
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>*/ThingDef[defName="RPC_Charcoal"]/thingCategories/text()</xpath>
+    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/thingCategories/text()</xpath>
     <value>
       <li>ResourcesRaw</li>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>*/ThingDef[defName="RPC_Charcoal"]/stuffProps/commonality/text()</xpath>
+    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/stuffProps/commonality/text()</xpath>
     <value>1</value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>*/ThingDef[defName="RPC_Charcoal"]/tradeability/text()</xpath>
+    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/tradeability/text()</xpath>
     <value>All</value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <success>Always</success>
-    <xpath>*/ThingDef[defName="RPC_Charcoal"]/tradeTags/text()</xpath>
+    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/tradeTags/text()</xpath>
     <value>
       <li></li>
     </value>
