@@ -16,7 +16,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/RecipeDef[defName="RPC_GatheringSpot_Dirt"]/recipeUsers/text()</xpath>
+    <xpath>Defs/RecipeDef[defName="RPC_Gathering_Dirt"]/recipeUsers/text()</xpath>
     <value>
       <li>RPC_GatheringSpot_Dirt</li>	  
     </value>
