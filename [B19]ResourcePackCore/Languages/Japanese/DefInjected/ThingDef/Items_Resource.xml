@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+    
+    <RPC_Dirt.label>土</RPC_Dirt.label>
+    <RPC_Dirt.description>土壌から採取された土です。</RPC_Dirt.description>
 
     <RPC_Charcoal.label>炭</RPC_Charcoal.label>
-    <RPC_Charcoal.description>木材を蒸し焼きにし炭化させて作られた炭です。精製工程である「ネラシ」の違いによって白炭、黒炭のような異なった性質の木炭が生まれます。</RPC_Charcoal.description>
+    <RPC_Charcoal.description>木材を蒸し焼きにし炭化させて作られた炭です。精製工程である「ネラシ」の違いによって白炭、黒炭のような異なる性質の木炭が生まれます。</RPC_Charcoal.description>
 
     <RPC_JapanesePaper.label>和紙</RPC_JapanesePaper.label>
     <RPC_JapanesePaper.description>日本の伝統的な紙です。楮のような長く丈夫な繊維の植物を漉いて作ります。薄く、丈夫で保存に適した特徴を持っています。</RPC_JapanesePaper.description>
