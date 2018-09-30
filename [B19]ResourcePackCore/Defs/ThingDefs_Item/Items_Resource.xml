@@ -41,7 +41,7 @@
       			<MaxHitPoints>150</MaxHitPoints>
       			<Mass>0.4</Mass> 
       			<Flammability>0</Flammability>
-			<DeteriorationRate>1</DeteriorationRate>
+			<DeteriorationRate>0</DeteriorationRate>
 			<WorkToMake>100</WorkToMake>
 			<Beauty>-4</Beauty>
 		</statBases>
