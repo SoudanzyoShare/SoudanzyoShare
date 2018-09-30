@@ -61,7 +61,7 @@
 	<!--=============== 和紙 ====================-->
 	<ThingDef ParentName="ResourceBase">
 		<defName>RPC_JapanesePaper</defName>
-		<label>JapanesePaper</label>
+		<label>Japanese Paper</label>
 		<description>The Japanese traditinal paper called "WASHI".</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/RPC_JapanesePaper</texPath>
@@ -122,5 +122,61 @@
 			
 		</tradeTags>
 	</ThingDef>
+	
+	<!--=============== 正絹 ====================-->
+	<ThingDef ParentName="ResourceBase">
+		<defName>RPC_PureSilk</defName>
+		<label>Pure Silk</label>
+		<description>It is a cloth made only from silk.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RPC_PureSilk</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(1,1,1)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<StuffPower_Armor_Sharp>0.40</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.10</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.10</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
+			<MaxHitPoints>80</MaxHitPoints>
+			<MarketValue>4.5</MarketValue>
+			<Mass>0.026</Mass>
+			<Flammability>1.2</Flammability>
+			<DeteriorationRate>4</DeteriorationRate>
+			<MarketValue>10</MarketValue>
+      			<MaxHitPoints>80</MaxHitPoints>
+      			<Mass>0.04</Mass> 
+      			<Flammability>1.8</Flammability>
+			<DeteriorationRate>4</DeteriorationRate>
+			<WorkToMake>300</WorkToMake>
+			<Beauty>12</Beauty>
+		</statBases>
+		<stuffProps>
+			<statFactors>
+				<Flammability>1.8</Flammability>
+			</statFactors>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(1,1,1)</color>
+			<allowColorGenerators>true</allowColorGenerators>
+			<commonality>0</commonality>
+		</stuffProps>
+		<comps>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+		<thingCategories>
+			
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<tradeTags>
+			
+		</tradeTags>
+	</ThingDef>	
 	
 </Defs>
