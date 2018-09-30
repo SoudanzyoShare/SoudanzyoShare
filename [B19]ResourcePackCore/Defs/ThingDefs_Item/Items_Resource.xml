@@ -185,7 +185,7 @@
 		<stuffProps>
 			<statFactors>
 				<Flammability>1.8</Flammability>
-				<Beauty></Beauty>
+				<Beauty>2</Beauty>
 			</statFactors>
 			<categories>
 				<li>Fabric</li>
