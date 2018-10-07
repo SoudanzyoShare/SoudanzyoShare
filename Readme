@@ -1,6 +1,5 @@
 Currently it is being tested, only Japanese explanation has become.
-------------
-現在の中身：
+------現在のリソース内容------
 土
 炭
 和紙
@@ -11,8 +10,13 @@ Currently it is being tested, only Japanese explanation has become.
 
 土採集場（パッチ当てなくてもデフォ追加）
 土採集レシピ
-------------
 
+
+------一般公開に際して------
+一般ユーザ向けに配布する際、当MOD同梱のパッチフォルダは消して下さい。
+*ver管理は一般公開開始後からスタート予定。
+
+------------
 リソースパックmodの雛形完成しました。
 アイテムの定義、画像、日本語訳、およびパッチがセットになってます。
 中にも書いてある通り、このMODに入っているパッチを各自のMODに移動し、
