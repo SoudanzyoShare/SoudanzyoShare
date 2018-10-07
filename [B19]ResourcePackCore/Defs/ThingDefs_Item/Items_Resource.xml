@@ -208,4 +208,48 @@
 		</tradeTags>
 	</ThingDef>	
 	
+	<!--=============== 肥料 ====================-->
+	<ThingDef ParentName="ResourceBase">
+		<defName>RPC_Compost</defName>
+		<label>Compost</label>
+		<description>Fertilizer made by fermenting plants. It is used for improving the soil.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RPC_Compost/RPC_Compost</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<Mass>0.1</Mass>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+		</thingCategories>
+		<tradeTags>
+		</tradeTags>
+		<tradeability>Sellable</tradeability>
+	</ThingDef>
+	
+	<!--=============== 泥 ====================-->
+	<ThingDef ParentName="ResourceBase">
+		<defName>RPC_Mud</defName>
+		<label>Mud/label>
+		<description>It is used for improving the soil.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RPC_Mud/RPC_Mud</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<MarketValue>0.01</MarketValue>
+			<Mass>1</Mass>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+		</thingCategories>
+		<tradeTags>
+		</tradeTags>
+	</ThingDef>
+		
 </Defs>
