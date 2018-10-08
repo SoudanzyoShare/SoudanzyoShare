@@ -233,7 +233,7 @@
 	<!--=============== 泥 ====================-->
 	<ThingDef ParentName="ResourceBase">
 		<defName>RPC_Mud</defName>
-		<label>Mud/label>
+		<label>Mud</label>
 		<description>It is used for improving the soil.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/RPC_Mud/RPC_Mud</texPath>
