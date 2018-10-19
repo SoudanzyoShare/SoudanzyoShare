@@ -10,8 +10,9 @@
     <fixedBillGiverDefs>
       <li>RPC_GatheringSpot_Dirt</li>
     </fixedBillGiverDefs>
-    <verb>mining</verb>
+    <verb>mine</verb>
     <gerund>gathering at</gerund>
+    <tagToGive>Fieldwork</tagToGive>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
