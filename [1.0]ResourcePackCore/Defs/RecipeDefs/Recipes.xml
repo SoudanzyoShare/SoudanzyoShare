@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--=============== Gathering dirt ====================-->
+	<RecipeDef>
+		<defName>RPC_Gathering_Dirt</defName>
+		<label>gather dirt</label>
+		<description>Gather dirt from the soil.</description>
+		<jobString>Gathering dirt.</jobString>
+		<workAmount>1000</workAmount>
+		<workSpeedStat></workSpeedStat>
+		<effectWorking></effectWorking>
+		<soundWorking>Interact_ConstructDirt</soundWorking>
+		<recipeUsers>
+<!--			<li>RPC_GatheringSpot_Dirt</li> -->
+		</recipeUsers>
+		<allowMixingIngredients></allowMixingIngredients>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<products>
+			<RPC_Dirt>10</RPC_Dirt>
+		</products>
+		<skillRequirements>
+		</skillRequirements>
+		<workSkill></workSkill>
+	</RecipeDef>
+
+</Defs>
