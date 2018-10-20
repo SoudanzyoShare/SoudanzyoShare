@@ -3,15 +3,19 @@
 	<name>[1.0]ResourcePackCore</name>
 	<author>RimWorld相談所</author>
 	<targetVersion>1.0.2059</targetVersion>
-	<description>Mod version:0.1
+	<description>Mod version:0.0
 
-Modder支援用の共有リソースパックMODです。
-このMOD自体はゲームになんら変更を加えません。
-
---------------------------------
+		
+[重要]当MODを必須とするMODを入れていない場合は導入しないで下さい！
+[CAUTION]If you don't have mods which requires this, please NEVER install!
+		
 The sharable resource MOD for all modders.
 This mod itself does not make any changes to the game.
-
+--------------------------------
+Modder支援用の共有リソースパックMODです。
+このMOD自体はゲームになんら変更を加えません。
+		
+		
 Prohibiting modification and redistribution of this Mod.
 </description>
 </ModMetaData>
