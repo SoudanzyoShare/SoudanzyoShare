@@ -252,4 +252,34 @@
 		</tradeTags>
 	</ThingDef>
 		
+	<!--=============== ガラス材 ====================-->
+	<ThingDef ParentName="ResourceBase">
+		<defName>RPC_GlassCullet</defName>
+		<label>glass cullet</label>
+		<description>A pile of the glass cullet.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RPC_GlassCullet/RPC_GlassCullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MarketValue>0.2</MarketValue>
+      			<MaxHitPoints>150</MaxHitPoints>
+      			<Mass>0.1</Mass> 
+      			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+		</stuffProps>
+		<thingCategories>
+			
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<tradeTags>
+			
+		</tradeTags>
+	</ThingDef>
+
 </Defs>

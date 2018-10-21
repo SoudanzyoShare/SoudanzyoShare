@@ -22,4 +22,7 @@
     <RPC_Mud.label>泥</RPC_Mud.label>
     <RPC_Mud.description>土壌改良の際に必要。</RPC_Mud.description>
     
+    <RPC_GlassCullet.label>ガラス材</RPC_GlassCullet.label>
+    <RPC_GlassCullet.description>ガラスを加工しやすいよう細かく粉砕したカレットです。</RPC_GlassCullet.description>
+
 </LanguageData>
