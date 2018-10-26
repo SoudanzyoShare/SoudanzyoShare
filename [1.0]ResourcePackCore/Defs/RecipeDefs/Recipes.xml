@@ -24,4 +24,80 @@
 		<workSkill></workSkill>
 	</RecipeDef>
 
+  <!--=============== 正絹を紡ぐ ====================-->
+	<RecipeDef>
+		<defName>RPC_MakePureSilk</defName>
+		<label>Weaving silk</label>
+		<description>Weaving Pure Silk from cocoon.</description>
+		<jobString>Weaving silk.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>300</workAmount>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RPC_Cocoon</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RPC_Cocoon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<RPC_PureSilk>10</RPC_PureSilk>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
+
+
+  <!--=============== 和紙を漉く ====================-->
+	<RecipeDef>
+		<defName>RPC_MakePaper</defName>
+		<label>Combing the Japanese paper</label>
+		<description>Combing the Japanese paper from Kouzo</description>
+		<jobString>Combing paper.</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>300</workAmount>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RPC_Kouzo</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RPC_Kouzo</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<RPC_JapanesePaper>10</RPC_JapanesePaper>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<recipeUsers>
+		</recipeUsers>
+	</RecipeDef>
 </Defs>
