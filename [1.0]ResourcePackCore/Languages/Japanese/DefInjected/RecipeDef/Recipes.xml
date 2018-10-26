@@ -5,4 +5,13 @@
     <RPC_Gathering_Dirt.description>地面から土を採集します。</RPC_Gathering_Dirt.description>
     <RPC_Gathering_Dirt.jobString>土を採集中</RPC_Gathering_Dirt.jobString>
 
+	<!--============ 繭 ============-->
+    <RPC_MakePureSilk.label>生糸を紡ぐ</RPC_MakePureSilk.label>
+    <RPC_MakePureSilk.description>生糸を紡いで織り込んでいます。</RPC_MakePureSilk.description>
+    <RPC_MakePureSilk.jobString>生糸を紡いでいる。</RPC_MakePureSilk.jobString>
+
+	<!--============ 楮 ============-->
+    <RPC_MakePaper.label>楮を漉く</RPC_MakePaper.label>
+    <RPC_MakePaper.description>楮を漉いて和紙を作ります。</RPC_MakePaper.description>
+    <RPC_MakePaper.jobString>楮を漉いている。</RPC_MakePaper.jobString>
 </LanguageData>
