@@ -282,4 +282,68 @@
 		</tradeTags>
 	</ThingDef>
 
+	<!--=============== 白米 ====================-->
+    <ThingDef ParentName="PlantFoodRawBase">
+        <defName>WhiteRice</defName>
+        <label>White rice</label>
+        <description>Rice that has been thoroughly threshed and polished.\nNutrients are lost in the process of polishing, but the taste improves superbly.</description>
+        <graphicData>
+            <texPath>Things/Item/PlantFoodRaw/hakumai</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>1.8</MarketValue>
+        </statBases>
+        <ingestible>
+            <foodType>Seed</foodType>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>20</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <thingCategories>
+        </thingCategories>
+    </ThingDef>
+
+	<!--=============== 繭 ====================-->
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>RPC_Cocoon</defName>
+		<label>Cocoon</label>
+		<description>It is the cocoon made by silkworm larvae.
+Weaving the thread by spinning it will become the finest textile.</description>
+		<stackLimit>200</stackLimit>
+		<graphicData>
+			<texPath>Things/Item/Resource/RPC_Cocoon</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+			<Mass>0.002</Mass>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<thingCategories>
+		</thingCategories>
+	</ThingDef>
+
+	<!--=============== 楮 ====================-->
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>RPC_Kouzo</defName>
+		<label>Kouzo</label>
+		<description>It is a bundle of bark which took from Kouzo Tree.
+Fibers of Kouzo bark are strongly intertwined long.
+Paper made from Kouzo is strong and lasts long.</description>
+		<stackLimit>200</stackLimit>
+		<graphicData>
+			<texPath>Things/Item/Resource/PlantFoodRaw/RPC_Kouzo</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.2</MarketValue>
+			<Mass>0.002</Mass>
+			<Flammability>0.8</Flammability>
+		</statBases>
+		<thingCategories>
+		</thingCategories>
+	</ThingDef>
 </Defs>
