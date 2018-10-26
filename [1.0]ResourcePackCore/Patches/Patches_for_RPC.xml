@@ -51,6 +51,63 @@
     </value>
   </Operation>
 
+	<!--=============== 楮 ====================-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_Kouzo"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+      	<li>Foods</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="RPC_MakePaper"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers>
+			<li>ElectricTailoringBench</li>
+			<li>HandTailoringBench</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+
+	<!--=============== 和紙 ====================-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_JapanesePaper"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+      	<li>ResourcesRaw</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+	<!--=============== 繭 ====================-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_Cocoon"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+      	<li>Foods</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="RPC_MakePureSilk"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers>
+			<li>ElectricTailoringBench</li>
+			<li>HandTailoringBench</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+
+	<!--=============== 正絹 ====================-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_PureSilk"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+      	<li>ResourcesRaw</li>
+      </thingCategories>
+    </value>
+  </Operation>
 -->
 
 </Patch>
