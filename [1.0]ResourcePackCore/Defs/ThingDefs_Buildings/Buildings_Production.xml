@@ -13,7 +13,7 @@
       <drawRotated>false</drawRotated>
     </graphicData>
     <uiIconPath>Things/Building/GatheringSpot_Dirt/GatheringSpot_DirtUI</uiIconPath>
-    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <WorkToBuild>0</WorkToBuild>
       <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
