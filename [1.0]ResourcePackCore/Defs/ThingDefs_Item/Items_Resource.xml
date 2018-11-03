@@ -186,6 +186,7 @@
 			<statFactors>
 				<Flammability>1.8</Flammability>
 				<Beauty>2</Beauty>
+				<Comfort>2</Comfort>
 			</statFactors>
 			<categories>
 				<li>Fabric</li>
