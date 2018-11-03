@@ -336,7 +336,7 @@ Fibers of Kouzo bark are strongly intertwined long.
 Paper made from Kouzo is strong and lasts long.</description>
 		<stackLimit>200</stackLimit>
 		<graphicData>
-			<texPath>Things/Item/Resource/PlantFoodRaw/RPC_Kouzo</texPath>
+			<texPath>Things/Item/PlantFoodRaw/RPC_Kouzo</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
