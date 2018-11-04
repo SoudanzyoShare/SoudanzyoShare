@@ -50,8 +50,9 @@
       	<li></li>
     </value>
   </Operation>
-
+-->
 	<!--=============== 楮 ====================-->
+<!--
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RPC_Kouzo"]/thingCategories</xpath>
     <value>
@@ -69,8 +70,9 @@
       </recipeUsers>
     </value>
   </Operation>
-
+-->
 	<!--=============== 和紙 ====================-->
+<!--
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RPC_JapanesePaper"]/thingCategories</xpath>
     <value>
@@ -79,8 +81,9 @@
       </thingCategories>
     </value>
   </Operation>
-
+-->
 	<!--=============== 繭 ====================-->
+<!--
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RPC_Cocoon"]/thingCategories</xpath>
     <value>
@@ -98,8 +101,9 @@
       </recipeUsers>
     </value>
   </Operation>
-
+-->
 	<!--=============== 正絹 ====================-->
+<!--
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RPC_PureSilk"]/thingCategories</xpath>
     <value>
