@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+		<!--=====Additional affordances to Vanilla terrains=====-->
+
+	<!--土採集可 Dirt Gatherable-->
+
+<!--土-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="Soil"]/affordances</xpath>
+    <value>
+      	<li>RPC_DirtGatherable</li>
+    </value>
+  </Operation>
+<!--苔むした土-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="MossyTerrain"]/affordances</xpath>
+    <value>
+      	<li>RPC_DirtGatherable</li>
+    </value>
+  </Operation>
+<!--肥えた土-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="SoilRich"]/affordances</xpath>
+    <value>
+      	<li>RPC_DirtGatherable</li>
+    </value>
+  </Operation>
+<!--踏み固められた土-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="PackedDirt"]/affordances</xpath>
+    <value>
+      	<li>RPC_DirtGatherable</li>
+    </value>
+  </Operation>
+
+
+	<!--砂利採集可 Gravel Gatherable-->
+<!--砂利-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="Gravel"]/affordances</xpath>
+    <value>
+      	<li>RPC_GravelGatherable</li>
+    </value>
+  </Operation>
+
+
+	<!--砂採集可 Sand Gatherable-->
+<!--砂地-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="Sand"]/affordances</xpath>
+    <value>
+      	<li>RPC_SandGatherable</li>
+    </value>
+  </Operation>
+<!--柔砂-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="SoftSand"]/affordances</xpath>
+    <value>
+      	<li>RPC_SandGatherable</li>
+    </value>
+  </Operation>
+
+
+	<!--泥採集可 Mud Gatherable-->
+<!--湿地-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="MarshyTerrain"]/affordances</xpath>
+    <value>
+      	<li>RPC_MudGatherable</li>
+    </value>
+  </Operation>
+<!--泥-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="Mud"]/affordances</xpath>
+    <value>
+      	<li>RPC_MudGatherable</li>
+    </value>
+  </Operation>
+<!--沼-->
+<!--（パッチ上手く通らないので保留）
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="Marsh"]/affordances</xpath>
+    <value>
+      	<li>RPC_MudGatherable</li>
+    </value>
+  </Operation>
+-->
+
+	<!--氷採集可 Ice Gatherable-->
+<!--氷面-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName="Ice"]/affordances</xpath>
+    <value>
+      	<li>RPC_IceGatherable</li>
+    </value>
+  </Operation>
+
+
+</Patch>

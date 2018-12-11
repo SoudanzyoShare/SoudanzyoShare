@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using RimWorld;
+using Verse;
+
+namespace RPC_TerrainAffordance
+{
+    [DefOf]
+    public static class RPC_TerrainAffordanceDefOf
+    {
+        public static TerrainAffordanceDef RPC_DirtGatherable; //土採集可
+        public static TerrainAffordanceDef RPC_GravelGatherable; //砂利収集可
+        public static TerrainAffordanceDef RPC_SandGatherable; //砂採集可
+        public static TerrainAffordanceDef RPC_MudGatherable; //泥収集可
+        public static TerrainAffordanceDef RPC_IceGatherable; //氷採集可
+
+    }
+}
+
+
+/*追加の地形条件です。新たに追加する場合、このDLLとRPC_TerrainAffordances.xmlに定義を追記し、
+RPC_TerrainPatch.xml内でお好きなバニラ地形にパッチを当てて下さい。
+以降それを建築要件に指定することが出来るようになります。*/
+
+/* Additional terrainAffordances.
+If you want to add new affordances, plz 
+
+[1]add to this DLL & RPC_TerrainAffordances.xml
+
+[2]patch to terrain with RPC_TerrainPatch.xml
+
+Since then you will be able to designate it as building requirements. */

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <RPC_DirtGatherable.label>土採集可</RPC_DirtGatherable.label>
+
+    <RPC_GravelGatherable.label>砂利採集可</RPC_GravelGatherable.label>
+
+    <RPC_SandGatherable.label>砂採集可</RPC_SandGatherable.label>
+
+    <RPC_MudGatherable.label>泥採集可</RPC_MudGatherable.label>
+
+    <RPC_IceGatherable.label>氷採集可</RPC_IceGatherable.label>
+
+</LanguageData>
