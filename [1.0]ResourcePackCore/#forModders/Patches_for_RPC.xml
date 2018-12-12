@@ -1,14 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-<!-- このパッチは各自MODのパッチフォルダに移動して使って下さい。一般公開時に削除予定。
+<!-- このパッチは各自MODのパッチフォルダに移動して使って下さい。
 
 ここで自分が使う素材だけにパッチをあてる。
-↓実際使うときは前後のコメントアウトを外すだけでＯＫ-->
+↓実際使うときは前後のコメントアウトを外すだけでＯＫ
+
+Please use this patch by moving to the patch folder of your MOD.
+It will be available as soon as you uncomment the resource you want to use.
+-->
 
 
 	<!--=============== 土とその採集レシピ追加 ====================-->
 <!--土関係だけは開発者全員が使用するのでデフォで記述してあります。土を使わないという方は消してください。-->
+<!--The soil is described defaultly because all developers will use it. Please remove those who do not want to use soil.-->
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RPC_Dirt"]/thingCategories</xpath>
     <value>
@@ -43,12 +49,6 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/tradeability/text()</xpath>
     <value>All</value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/tradeTags</xpath>
-    <value>
-      	<li></li>
-    </value>
   </Operation>
 -->
 	<!--=============== 楮 ====================-->
@@ -154,6 +154,12 @@
 	リソースパックのデフォルトは"Sellable"。商人に持って来させたいときはAllあたり。
 
 ・tradeTagsはおそらく複数指定可能なため"Add"。独自のタグを設定したい場合などに。
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RPC_Charcoal"]/tradeTags</xpath>
+    <value>
+      	<li>My_Tag</li>
+    </value>
+  </Operation>
 
 ・各トレーダーヘの単品追加方法　（以下を追記）
   <Operation Class="PatchOperationAdd">
