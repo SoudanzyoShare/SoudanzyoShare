@@ -284,7 +284,7 @@
 	</ThingDef>
 
 	<!--=============== 白米 ====================-->
-    <ThingDef ParentName="PlantFoodRawBase">
+    <ThingDef ParentName="OrganicProductBase">
         <defName>WhiteRice</defName>
         <label>White rice</label>
         <description>Rice that has been thoroughly threshed and polished.\nNutrients are lost in the process of polishing, but the taste improves superbly.</description>
@@ -293,9 +293,15 @@
         </graphicData>
         <statBases>
             <MarketValue>1.8</MarketValue>
+            <Nutrition>0.05</Nutrition>
+            <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
         </statBases>
         <ingestible>
             <foodType>Seed</foodType>
+            <preferability>RawBad</preferability>
+            <tasteThought>AteRawFood</tasteThought>
+            <ingestEffect>EatVegetarian</ingestEffect>
+            <ingestSound>RawVegetable_Eat</ingestSound>
         </ingestible>
         <comps>
             <li Class="CompProperties_Rottable">
@@ -303,8 +309,9 @@
                 <rotDestroys>true</rotDestroys>
             </li>
         </comps>
+        <socialPropernessMatters>true</socialPropernessMatters>
         <thingCategories>
-        </thingCategories>
+	</thingCategories>
     </ThingDef>
 
 	<!--=============== 繭 ====================-->
