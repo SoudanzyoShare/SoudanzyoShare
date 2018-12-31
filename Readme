@@ -1,5 +1,6 @@
 Currently it is being tested, only Japanese explanation has become.
-------ver0.1のリソース内容------
+------ver0.2の内容------
+<リソース>
 土
 炭
 和紙
@@ -12,14 +13,20 @@ Currently it is being tested, only Japanese explanation has become.
 桑
 白米
 
+<建築物>
 土採集場（パッチ当てなくてもデフォ追加）
 土採集レシピ
---------ver0.2追加分はこちらに追記------
+
+<その他>
+バニラ地形へAffordance追加
+採集場の表示プルダウン化
+
+--------Steam版未追加の開発中要素は↓に追記------
 
 ------一般公開に際して------
 ver管理開始しました。
-・公開済み   ： ver0.1
-・次回公開分は ver0.2 です。
+・公開済み   ： ver0.2
+・次回公開分は ver0.3 です。
 
 *一般ユーザ向けに配布する際、About内のMODバージョンをひとつ繰上げて下さい。
 
