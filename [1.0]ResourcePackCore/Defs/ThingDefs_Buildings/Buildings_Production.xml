@@ -54,6 +54,7 @@
       <li>PlaceWorker_ReportWorkSpeedPenalties</li>
     </placeWorkers>
     <terrainAffordanceNeeded>RPC_DirtGatherable</terrainAffordanceNeeded>
+    <designatorDropdown>RPC_Dropdown_GatherSpot</designatorDropdown>
   </ThingDef>
 
 </Defs>

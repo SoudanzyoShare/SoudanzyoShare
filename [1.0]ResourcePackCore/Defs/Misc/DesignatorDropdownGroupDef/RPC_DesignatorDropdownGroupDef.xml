@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 採集場系列 -->
+  <DesignatorDropdownGroupDef>
+    <defName>RPC_Dropdown_GatherSpot</defName>
+  </DesignatorDropdownGroupDef>
+
+</Defs>
