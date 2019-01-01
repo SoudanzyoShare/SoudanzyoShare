@@ -22,6 +22,9 @@
     <RPC_Mud.label>泥</RPC_Mud.label>
     <RPC_Mud.description>土壌改良の際に必要。</RPC_Mud.description>
     
+    <WhiteRice.label>白米</WhiteRice.label>
+    <WhiteRice.description>丁寧に脱穀して精米したお米。\n精米する過程で栄養素を削りとってしまうが味は抜群によくなる。</WhiteRice.description>
+    
     <RPC_GlassCullet.label>ガラス材</RPC_GlassCullet.label>
     <RPC_GlassCullet.description>ガラスを加工しやすいよう細かく粉砕したカレットです。</RPC_GlassCullet.description>
 
