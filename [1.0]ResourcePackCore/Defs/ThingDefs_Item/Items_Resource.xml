@@ -314,6 +314,38 @@
 	</thingCategories>
     </ThingDef>
 
+	<!--=============== 大豆 ====================-->
+    <ThingDef ParentName="OrganicProductBase">
+        <defName>ZP_SoyBeen</defName>
+        <label>Soybeans</label>
+        <description>When cooking, soybeans can be treated as meat, though they can also be used to make Miso and soy sauce.</description>
+        <graphicData>
+            <texPath>Things/Item/PlantFoodRaw/daizu</texPath>
+            <drawSize>(1.1,1.1)</drawSize>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.05</Nutrition>
+            <MarketValue>1.2</MarketValue>
+            <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+        </statBases>
+        <ingestible>
+            <foodType>VegetableOrFruit</foodType>
+            <preferability>RawBad</preferability>
+            <tasteThought>AteRawFood</tasteThought>
+            <ingestEffect>EatVegetarian</ingestEffect>
+            <ingestSound>RawVegetable_Eat</ingestSound>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>45</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <socialPropernessMatters>true</socialPropernessMatters>
+        <thingCategories>
+	</thingCategories>
+    </ThingDef>
+	
 	<!--=============== 繭 ====================-->
 	<ThingDef ParentName="RoughPlantBase">
 		<defName>RPC_Cocoon</defName>
