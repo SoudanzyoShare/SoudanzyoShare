@@ -59,12 +59,12 @@
   
 　　<!--=============== 泥収集所 ====================-->
     <ThingDef ParentName="BuildingBase">
-        <defName>RPC_MudCollectingPlace</defName>
+        <defName>RPC_GatheringSpot_Mud</defName>
         <label>Mud gathering spot</label>
         <description>(Installation location: mud, marshy.) A place to gather mud for soil making.</description>
         <thingClass>Building_WorkTable</thingClass>
         <graphicData>
-            <texPath>Things/Buildings/dorohori</texPath>
+            <texPath>Things/Buildings/RPC_GatheringSpot_Mud/RPC_GatheringSpot_Mud</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(1.3,1.3)</drawSize>
             <drawRotated>false</drawRotated>
