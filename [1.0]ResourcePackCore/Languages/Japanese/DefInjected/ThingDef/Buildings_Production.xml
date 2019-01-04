@@ -3,5 +3,8 @@
     
     <RPC_GatheringSpot_Dirt.label>土採集場</RPC_GatheringSpot_Dirt.label>
     <RPC_GatheringSpot_Dirt.description>土を採集するための場所です。</RPC_GatheringSpot_Dirt.description>
+    
+    <RPC_GatheringSpot_Mud.label>泥採集場</RPC_GatheringSpot_Mud.label>
+    <RPC_GatheringSpot_Mud.description>泥を採集するための場所です。</RPC_GatheringSpot_Mud.description>
 
 </LanguageData>
