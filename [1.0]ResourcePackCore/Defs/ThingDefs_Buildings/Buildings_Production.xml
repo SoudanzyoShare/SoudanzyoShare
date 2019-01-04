@@ -64,7 +64,7 @@
         <description>(Installation location: mud, marshy.) A place to gather mud for soil making.</description>
         <thingClass>Building_WorkTable</thingClass>
         <graphicData>
-            <texPath>Things/Buildings/GatheringSpot_Mud/GatheringSpot_Mud</texPath>
+            <texPath>Things/Building/GatheringSpot_Mud/GatheringSpot_Mud</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>(1.3,1.3)</drawSize>
             <drawRotated>false</drawRotated>
