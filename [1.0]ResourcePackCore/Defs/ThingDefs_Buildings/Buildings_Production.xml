@@ -56,5 +56,50 @@
     <terrainAffordanceNeeded>RPC_DirtGatherable</terrainAffordanceNeeded>
     <designatorDropdown>RPC_Dropdown_GatherSpot</designatorDropdown>
   </ThingDef>
+  
+　　<!--=============== 泥収集所 ====================-->
+    <ThingDef ParentName="BuildingBase">
+        <defName>RPC_MudCollectingPlace</defName>
+        <label>Mud gathering spot</label>
+        <description>(Installation location: mud, marshy.) A place to gather mud for soil making.</description>
+        <thingClass>Building_WorkTable</thingClass>
+        <graphicData>
+            <texPath>Things/Buildings/dorohori</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.3,1.3)</drawSize>
+            <drawRotated>false</drawRotated>
+        </graphicData>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <statBases>
+            <WorkToBuild>0</WorkToBuild>
+            <Cleanliness>-10</Cleanliness>
+        </statBases>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <useHitPoints>false</useHitPoints>
+        <size>(1,1)</size>
+        <passability>PassThroughOnly</passability>
+        <hasInteractionCell>true</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <surfaceType>Item</surfaceType>
+        <inspectorTabs>
+            <li>ITab_Bills</li>
+        </inspectorTabs>
+        <building>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+            <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+        </building>
+        <comps>
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+
+                </linkableFacilities>
+            </li>
+            <li>
+                <compClass>CompReportWorkSpeed</compClass>
+            </li>
+        </comps>
+        <terrainAffordanceNeeded>RPC_MudGatherable</terrainAffordanceNeeded>
+        <designatorDropdown>RPC_Dropdown_GatherSpot</designatorDropdown>
+    </ThingDef>
 
 </Defs>
