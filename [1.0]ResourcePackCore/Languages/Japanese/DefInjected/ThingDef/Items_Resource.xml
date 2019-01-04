@@ -25,6 +25,9 @@
     <WhiteRice.label>白米</WhiteRice.label>
     <WhiteRice.description>丁寧に脱穀して精米したお米。\n精米する過程で栄養素を削りとってしまうが味は抜群によくなる。</WhiteRice.description>
     
+    <ZP_SoyBeen.label>大豆</ZP_SoyBeen.label>
+    <ZP_SoyBeen.description>保存性が高く加工すれば肉の代替品として便利。味噌や醤油の原材料。</ZP_SoyBeen.description>
+    
     <RPC_GlassCullet.label>ガラス材</RPC_GlassCullet.label>
     <RPC_GlassCullet.description>ガラスを加工しやすいよう細かく粉砕したカレットです。</RPC_GlassCullet.description>
 
