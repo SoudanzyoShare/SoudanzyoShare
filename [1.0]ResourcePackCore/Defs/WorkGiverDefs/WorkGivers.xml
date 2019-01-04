@@ -9,6 +9,7 @@
     <priorityInType>120</priorityInType>
     <fixedBillGiverDefs>
       <li>RPC_GatheringSpot_Dirt</li>
+      <li>RPC_GatheringSpot_Mud</li>
     </fixedBillGiverDefs>
     <verb>mine</verb>
     <gerund>gathering at</gerund>
