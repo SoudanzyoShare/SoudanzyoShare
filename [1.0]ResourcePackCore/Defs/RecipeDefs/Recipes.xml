@@ -100,4 +100,24 @@
 		<recipeUsers>
 		</recipeUsers>
 	</RecipeDef>
+  <!--=============== 泥集め ====================-->
+    <RecipeDef>
+        <defName>ZP_CollectMud</defName>
+        <label>gather mud</label>
+        <description>Gather dirt from the mud.</description>
+        <jobString>Gathering mud.</jobString>
+        <effectWorking>CutStone</effectWorking>
+        <soundWorking>Interact_ConstructDirt</soundWorking>
+        <targetCountAdjustment>10</targetCountAdjustment>
+        <workSpeedStat>MiningSpeed</workSpeedStat>
+        <workAmount>1000</workAmount>
+        <workSkill>Mining</workSkill>
+        <recipeUsers>
+        <!--<li>RPC_GatheringSpot_Mud</li> -->
+        </recipeUsers>
+        <products>
+            <RPC_Mud>10</RPC_Mud>
+        </products>
+    </RecipeDef>
+	
 </Defs>
