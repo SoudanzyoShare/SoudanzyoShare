@@ -1,5 +1,5 @@
 Currently it is being tested, only Japanese explanation has become.
-------ver0.2の内容------
+------ver0.3の内容------
 <リソース>
 土
 炭
@@ -12,10 +12,13 @@ Currently it is being tested, only Japanese explanation has become.
 楮
 桑
 白米
+大豆
 
 <建築物>
 土採集場（パッチ当てなくてもデフォ追加）
 土採集レシピ
+泥採集場
+
 
 <その他>
 バニラ地形へAffordance追加
