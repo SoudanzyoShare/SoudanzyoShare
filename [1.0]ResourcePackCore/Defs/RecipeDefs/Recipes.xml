@@ -105,7 +105,7 @@
     <RecipeDef>
         <defName>ZP_CollectMud</defName>
         <label>gather mud</label>
-        <description>Gather dirt from the mud.</description>
+        <description>Gather mud from the swampy land.</description>
         <jobString>Gathering mud.</jobString>
         <effectWorking>CutStone</effectWorking>
         <soundWorking>Interact_ConstructDirt</soundWorking>
