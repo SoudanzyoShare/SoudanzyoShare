@@ -100,7 +100,8 @@
 		<recipeUsers>
 		</recipeUsers>
 	</RecipeDef>
-  <!--=============== 泥集め ====================-->
+  
+<!--=============== 泥集め ====================-->
     <RecipeDef>
         <defName>ZP_CollectMud</defName>
         <label>gather mud</label>
