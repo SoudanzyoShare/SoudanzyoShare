@@ -14,4 +14,10 @@
     <RPC_MakePaper.label>楮を漉く</RPC_MakePaper.label>
     <RPC_MakePaper.description>楮を漉いて和紙を作ります。</RPC_MakePaper.description>
     <RPC_MakePaper.jobString>楮を漉いている。</RPC_MakePaper.jobString>
+	
+	<!--============ 泥 ============-->	
+    <ZP_CollectMud.label>泥を採集する</ZP_CollectMud.label>
+    <ZP_CollectMud.description>地面から泥を採集します。</ZP_CollectMud.description>
+    <RZP_CollectMud.jobString>っ泥を採集中</ZP_CollectMud.jobString>
+	
 </LanguageData>
