@@ -15,10 +15,8 @@ Currently it is being tested, only Japanese explanation has become.
 大豆
 
 <建築物>
-土採集場（パッチ当てなくてもデフォ追加）
-土採集レシピ
-泥採集場
-
+土採集場&レシピ（パッチ当てなくてもデフォ追加）
+泥採集場&レシピ
 
 <その他>
 バニラ地形へAffordance追加
@@ -28,8 +26,8 @@ Currently it is being tested, only Japanese explanation has become.
 
 ------一般公開に際して------
 ver管理開始しました。
-・公開済み   ： ver0.2
-・次回公開分は ver0.3 です。
+・公開済み   ： ver0.3
+・次回公開分は ver0.4 です。
 
 *一般ユーザ向けに配布する際、About内のMODバージョンをひとつ繰上げて下さい。
 
