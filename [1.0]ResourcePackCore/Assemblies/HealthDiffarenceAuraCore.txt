@@ -1,0 +1,53 @@
+このMODを導入するとXMLの記述のみでHediffを付与するオーラを発する防具を作成できるようになります。
+このMODだけでは動作しません。
+
+XMLは通常の<thingClass>Apparel</thingClass>に以下のステータスを追加してください。
+
+
+■EnableOnlyPlayerFaction：
+　Trueにすると装備者が入植者の時のみオーラが発動するようになります。
+　初期値：true
+
+■AddHediffSeverity	：
+　オーラ発動時のHediffの重症度加算値をFloat型で指定します。
+　初期値：0.5
+■MaxHediffSeverity：
+　オーラ発動時のHediffの重症度加算が行われたときの最大値をFloat型で指定します。
+　初期値：1.0
+■BasicAuraDistance：
+　オーラの有効範囲をFloat型で指定します。実際には装備品の品質により、有効範囲が増減します。
+　初期値：10.0
+■BasicAuraTick：
+　オーラの発動周期(Tick数)をINT型で指定します。1Tickは1/60秒です。
+　初期値：1000
+■HediffToAdd：
+　オーラ発動時に付与するHediff名を指定します。
+　初期値：ToxicBuildup
+■TargetPawnKind：
+　オーラがHediffを付与する対象を指定します。
+　0：自勢力のみ/１：自勢力以外/２：全員
+　初期値：0
+
+また、対象Apparelには<tickerType>Normal</tickerType>を記述してください。
+
+
+
+記載例
+	<ThingDef Class="HealthDifferenceAuraCore.ThingDef_HediffAura">
+		<defName>HDA_Test</defName>
+		<label>Test</label>
+		<description>Test Apparel.</description>
+		<EnableOnlyPlayerFaction>true</EnableOnlyPlayerFaction>
+		<AddHediffSeverity>0.5</AddHediffSeverity>
+		<MaxHediffSeverity>1.0</MaxHediffSeverity>
+		<BasicAuraDistance>15.0</BasicAuraDistance>
+		<BasicAuraTick>1000</BasicAuraTick>
+		<HediffToAdd>HDA_Hediff_Test</HediffToAdd>
+		<TargetPawnKind>0</TargetPawnKind>
+		<thingClass>HealthDifferenceAuraCore.HediffAuraEffect</thingClass>
+		<tickerType>Normal</tickerType>
+    
+    (中略。他ステータスは通常のApparelと同じ。)
+    
+	</ThingDef>
+
