@@ -1,0 +1,32 @@
+
+温度調整可能で電力を必要としない冷暖房を実装するためのベースを提供します。
+It provides a base for implementing air-conditioning that can be adjusted in temperature and does not require electric power.
+
+[ 使用方法 How to Use ]
+
+<Def>
+  <ThingDef ParentName="BuildingBase">
+    <defName>NewHeater</defName>
+
+    //<thingClass>,<tickerType>,<comps>は必須項目。　Required setting.
+    <thingClass>RPC_Building_NonPowerTempControl</thingClass>
+
+    <tickerType>Rare</tickerType>
+
+    <comps>
+      <li Class="CompProperties_RPC_NonPowerTempControl">
+
+        <IsHeater>true</IsHeater> 			//(optional)trueでヒーターの挙動。falseでクーラーの挙動。
+
+        <energyPerSecond>12</energyPerSecond> 		//(optional)冷暖房能。Default=12
+
+	<defaultTargetTemperature>21</defaultTargetTemperature> //(optional)Default=21
+
+	<minTargetTemperature>-50</minTargetTemperature>//(optional)Default=-50
+
+	<maxTargetTemperature>50</maxTargetTemperature>	//(optional)Default=50
+      </li>
+    </comps>
+...
+
+
