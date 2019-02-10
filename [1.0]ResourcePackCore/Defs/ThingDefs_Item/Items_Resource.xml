@@ -57,7 +57,109 @@
 		</tradeTags>
 	</ThingDef>
 	
-	
+	<!--=============== 砂 ====================-->
+	<ThingDef ParentName="ResourceBase">
+		<defName>RPC_Sand</defName>
+		<label>sand</label>
+		<description>A pile of the sand.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RPC_Sand/RPC_Sand</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+      			<MaxHitPoints>150</MaxHitPoints>
+      			<Mass>0.4</Mass> 
+      			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<WorkToMake>100</WorkToMake>
+			<Beauty>-4</Beauty>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+		</stuffProps>
+		<thingCategories>
+			
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<tradeTags>
+			
+		</tradeTags>
+	</ThingDef>
+
+	<!--=============== 砂利 ====================-->
+	<ThingDef ParentName="ResourceBase">
+		<defName>RPC_Gravel</defName>
+		<label>gravel</label>
+		<description>A pile of the gravel.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RPC_Gravel/RPC_Gravel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+      			<MaxHitPoints>150</MaxHitPoints>
+      			<Mass>0.4</Mass> 
+      			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<WorkToMake>100</WorkToMake>
+			<Beauty>-4</Beauty>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+		</stuffProps>
+		<thingCategories>
+			
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<tradeTags>
+			
+		</tradeTags>
+	</ThingDef>
+
+	<!--=============== 氷 ====================-->
+	<ThingDef ParentName="ResourceBase">
+		<defName>RPC_Ice</defName>
+		<label>ice</label>
+		<description>A block of the ice.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RPC_Ice/RPC_Ice</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MarketValue>5.0</MarketValue>
+      			<MaxHitPoints>150</MaxHitPoints>
+      			<Mass>1.0</Mass> 
+      			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<WorkToMake>100</WorkToMake>
+			<Beauty>-4</Beauty>
+		</statBases>
+        	<comps>
+            	  <li Class="CompProperties_Rottable">
+                    <daysToRotStart>1</daysToRotStart>
+                    <rotDestroys>true</rotDestroys>
+        	  </li>
+        	</comps>
+		<stuffProps>
+			<commonality>0</commonality>
+		</stuffProps>
+		<thingCategories>
+			
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<tradeTags>
+			
+		</tradeTags>
+	</ThingDef>
+
+
 	<!--=============== 炭 ====================-->
 	<ThingDef ParentName="ResourceBase">
 		<defName>RPC_Charcoal</defName>

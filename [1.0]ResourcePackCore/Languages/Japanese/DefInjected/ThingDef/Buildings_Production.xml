@@ -3,6 +3,15 @@
     
     <RPC_GatheringSpot_Dirt.label>土採集場</RPC_GatheringSpot_Dirt.label>
     <RPC_GatheringSpot_Dirt.description>土を採集するための場所です。</RPC_GatheringSpot_Dirt.description>
+        
+    <RPC_GatheringSpot_Sand.label>砂採集場</RPC_GatheringSpot_Sand.label>
+    <RPC_GatheringSpot_Sand.description>砂を採集するための場所です。</RPC_GatheringSpot_Sand.description>
+            
+    <RPC_GatheringSpot_Gravel.label>砂利採集場</RPC_GatheringSpot_Gravel.label>
+    <RPC_GatheringSpot_Gravel.description>砂利を採集するための場所です。</RPC_GatheringSpot_Gravel.description>
+                
+    <RPC_GatheringSpot_Ice.label>氷採集場</RPC_GatheringSpot_Ice.label>
+    <RPC_GatheringSpot_Ice.description>氷を採集するための場所です。</RPC_GatheringSpot_Ice.description>
     
     <RPC_GatheringSpot_Mud.label>泥採集場</RPC_GatheringSpot_Mud.label>
     <RPC_GatheringSpot_Mud.description>泥を採集するための場所です。</RPC_GatheringSpot_Mud.description>

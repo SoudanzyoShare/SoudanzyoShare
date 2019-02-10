@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <!--=============== Gathering dirt ====================-->
+  <!--=============== 土採集　Gathering dirt ====================-->
 	<RecipeDef>
 		<defName>RPC_Gathering_Dirt</defName>
 		<label>gather dirt</label>
@@ -18,6 +18,75 @@
 		<targetCountAdjustment>10</targetCountAdjustment>
 		<products>
 			<RPC_Dirt>10</RPC_Dirt>
+		</products>
+		<skillRequirements>
+		</skillRequirements>
+		<workSkill></workSkill>
+	</RecipeDef>
+
+  <!--=============== 砂採集　Gathering sand ====================-->
+	<RecipeDef>
+		<defName>RPC_Gathering_Sand</defName>
+		<label>gather sand</label>
+		<description>Gather sand from the soil.</description>
+		<jobString>Gathering sand.</jobString>
+		<workAmount>1000</workAmount>
+		<workSpeedStat></workSpeedStat>
+		<effectWorking></effectWorking>
+		<soundWorking>Interact_ConstructDirt</soundWorking>
+		<recipeUsers>
+<!--			<li>RPC_GatheringSpot_Sand</li> -->
+		</recipeUsers>
+		<allowMixingIngredients></allowMixingIngredients>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<products>
+			<RPC_Sand>10</RPC_Sand>
+		</products>
+		<skillRequirements>
+		</skillRequirements>
+		<workSkill></workSkill>
+	</RecipeDef>
+
+  <!--=============== 砂利採集　Gathering gravel ====================-->
+	<RecipeDef>
+		<defName>RPC_Gathering_Gravel</defName>
+		<label>gather gravel</label>
+		<description>Gather gravel from the soil.</description>
+		<jobString>Gathering gravel.</jobString>
+		<workAmount>1000</workAmount>
+		<workSpeedStat></workSpeedStat>
+		<effectWorking></effectWorking>
+		<soundWorking>Interact_ConstructDirt</soundWorking>
+		<recipeUsers>
+<!--			<li>RPC_GatheringSpot_Gravel</li> -->
+		</recipeUsers>
+		<allowMixingIngredients></allowMixingIngredients>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<products>
+			<RPC_Gravel>10</RPC_Gravel>
+		</products>
+		<skillRequirements>
+		</skillRequirements>
+		<workSkill></workSkill>
+	</RecipeDef>
+
+  <!--=============== 氷採集　Gathering ice ====================-->
+	<RecipeDef>
+		<defName>RPC_Gathering_Ice</defName>
+		<label>cut out ice</label>
+		<description>Cut out ice blocks from the ice surface.</description>
+		<jobString>cutting out ice.</jobString>
+		<workAmount>2000</workAmount>
+		<workSpeedStat></workSpeedStat>
+		<effectWorking></effectWorking>
+		<soundWorking>Interact_ConstructDirt</soundWorking>
+		<recipeUsers>
+<!--			<li>RPC_GatheringSpot_Ice</li> -->
+		</recipeUsers>
+		<allowMixingIngredients></allowMixingIngredients>
+		<targetCountAdjustment>5</targetCountAdjustment>
+		<products>
+			<RPC_Ice>5</RPC_Ice>
 		</products>
 		<skillRequirements>
 		</skillRequirements>

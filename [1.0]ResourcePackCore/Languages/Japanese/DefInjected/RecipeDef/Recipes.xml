@@ -5,6 +5,18 @@
     <RPC_Gathering_Dirt.description>地面から土を採集します。</RPC_Gathering_Dirt.description>
     <RPC_Gathering_Dirt.jobString>土を採集中</RPC_Gathering_Dirt.jobString>
 
+    <RPC_Gathering_Sand.label>砂を採集する</RPC_Gathering_Sand.label>
+    <RPC_Gathering_Sand.description>地面から砂を採集します。</RPC_Gathering_Sand.description>
+    <RPC_Gathering_Sand.jobString>砂を採集中</RPC_Gathering_Sand.jobString>
+
+    <RPC_Gathering_Gravel.label>砂利を採集する</RPC_Gathering_Gravel.label>
+    <RPC_Gathering_Gravel.description>地面から砂利を採集します。</RPC_Gathering_Gravel.description>
+    <RPC_Gathering_Gravel.jobString>砂利を採集中</RPC_Gathering_Gravel.jobString>
+
+    <RPC_Gathering_Ice.label>氷を採集する</RPC_Gathering_Ice.label>
+    <RPC_Gathering_Ice.description>氷面から氷を採集します。</RPC_Gathering_Ice.description>
+    <RPC_Gathering_Ice.jobString>氷を採集中</RPC_Gathering_Ice.jobString>
+
 	<!--============ 繭 ============-->
     <RPC_MakePureSilk.label>生糸を紡ぐ</RPC_MakePureSilk.label>
     <RPC_MakePureSilk.description>生糸を紡いで織り込んでいます。</RPC_MakePureSilk.description>

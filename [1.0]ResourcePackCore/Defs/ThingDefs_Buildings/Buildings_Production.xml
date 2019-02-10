@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+　　<!--=============== 土採集場 ====================-->
   <ThingDef ParentName="BuildingBase">
     <defName>RPC_GatheringSpot_Dirt</defName>
     <label>dirt gathering spot</label>
@@ -54,6 +55,177 @@
       <li>PlaceWorker_ReportWorkSpeedPenalties</li>
     </placeWorkers>
     <terrainAffordanceNeeded>RPC_DirtGatherable</terrainAffordanceNeeded>
+    <designatorDropdown>RPC_Dropdown_GatherSpot</designatorDropdown>
+  </ThingDef>
+
+  　　<!--=============== 砂採集場 ====================-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>RPC_GatheringSpot_Sand</defName>
+    <label>sand gathering spot</label>
+    <description>A place for gathering sand.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/GatheringSpot_Sand/GatheringSpot_Sand</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <uiIconPath>Things/Building/GatheringSpot_Sand/GatheringSpot_SandUI</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <WorkToBuild>0</WorkToBuild>
+      <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+    </statBases>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <useHitPoints>false</useHitPoints>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>Standable</passability>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <workSpeedPenaltyOutdoors>false</workSpeedPenaltyOutdoors>
+      <workSpeedPenaltyTemperature>false</workSpeedPenaltyTemperature>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+
+        </linkableFacilities>
+      </li>
+      <li>
+        <compClass>CompReportWorkSpeed</compClass>
+      </li>
+    </comps>
+    <designationHotKey>Misc1</designationHotKey>
+    <placeWorkers>
+
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+    </placeWorkers>
+    <terrainAffordanceNeeded>RPC_SandGatherable</terrainAffordanceNeeded>
+    <designatorDropdown>RPC_Dropdown_GatherSpot</designatorDropdown>
+  </ThingDef>
+  
+  　　<!--=============== 砂利採集場 ====================-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>RPC_GatheringSpot_Gravel</defName>
+    <label>gravel gathering spot</label>
+    <description>A place for gathering gravel.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/GatheringSpot_Gravel/GatheringSpot_Gravel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <uiIconPath>Things/Building/GatheringSpot_Gravel/GatheringSpot_GravelUI</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <WorkToBuild>0</WorkToBuild>
+      <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+    </statBases>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <useHitPoints>false</useHitPoints>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>Standable</passability>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <workSpeedPenaltyOutdoors>false</workSpeedPenaltyOutdoors>
+      <workSpeedPenaltyTemperature>false</workSpeedPenaltyTemperature>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+
+        </linkableFacilities>
+      </li>
+      <li>
+        <compClass>CompReportWorkSpeed</compClass>
+      </li>
+    </comps>
+    <designationHotKey>Misc1</designationHotKey>
+    <placeWorkers>
+
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+    </placeWorkers>
+    <terrainAffordanceNeeded>RPC_GravelGatherable</terrainAffordanceNeeded>
+    <designatorDropdown>RPC_Dropdown_GatherSpot</designatorDropdown>
+  </ThingDef>
+    
+  　　<!--=============== 氷採集場 ====================-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>RPC_GatheringSpot_Ice</defName>
+    <label>ice gathering spot</label>
+    <description>A place for cutting out ice.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/GatheringSpot_Ice/GatheringSpot_Ice</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <drawRotated>false</drawRotated>
+    </graphicData>
+    <uiIconPath>Things/Building/GatheringSpot_Ice/GatheringSpot_IceUI</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <WorkToBuild>0</WorkToBuild>
+      <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+    </statBases>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <useHitPoints>false</useHitPoints>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>Standable</passability>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <workSpeedPenaltyOutdoors>false</workSpeedPenaltyOutdoors>
+      <workSpeedPenaltyTemperature>false</workSpeedPenaltyTemperature>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <sowTag>SupportPlantsOnly</sowTag>
+      <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+
+        </linkableFacilities>
+      </li>
+      <li>
+        <compClass>CompReportWorkSpeed</compClass>
+      </li>
+    </comps>
+    <designationHotKey>Misc1</designationHotKey>
+    <placeWorkers>
+
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+    </placeWorkers>
+    <terrainAffordanceNeeded>RPC_IceGatherable</terrainAffordanceNeeded>
     <designatorDropdown>RPC_Dropdown_GatherSpot</designatorDropdown>
   </ThingDef>
   

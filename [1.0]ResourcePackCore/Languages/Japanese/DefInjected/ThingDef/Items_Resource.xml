@@ -3,6 +3,15 @@
     
     <RPC_Dirt.label>土</RPC_Dirt.label>
     <RPC_Dirt.description>土壌から採取された土です。</RPC_Dirt.description>
+    
+    <RPC_Sand.label>砂</RPC_Sand.label>
+    <RPC_Sand.description>砂地から採取された砂です。</RPC_Sand.description>
+    
+    <RPC_Gravel.label>砂利</RPC_Gravel.label>
+    <RPC_Gravel.description>土壌から採取された砂利です。</RPC_Gravel.description>
+    
+    <RPC_Ice.label>氷</RPC_Ice.label>
+    <RPC_Ice.description>氷面から採取された氷です。</RPC_Ice.description>
 
     <RPC_Charcoal.label>炭</RPC_Charcoal.label>
     <RPC_Charcoal.description>木材を蒸し焼きにし炭化させて作られた炭です。精製工程である「ネラシ」の違いによって白炭、黒炭のような異なる性質の木炭が生まれます。</RPC_Charcoal.description>
