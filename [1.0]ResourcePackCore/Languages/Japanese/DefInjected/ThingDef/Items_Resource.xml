@@ -45,4 +45,8 @@
 
     <RPC_Cocoon.label>繭</RPC_Cocoon.label>
     <RPC_Cocoon.description>蚕の幼虫が作る繭です。糸を紡いで織り込むことで最上級の織物になります。</RPC_Cocoon.description>
+    
+    
+    <WA_Azuki.label>小豆</WA_Azuki.label>
+    <WA_Azuki.description>マメ科の赤い種子です。甘納豆、餡、菓子、赤飯など幅広い用途に用いられます。</WA_Azuki.description>
 </LanguageData>
