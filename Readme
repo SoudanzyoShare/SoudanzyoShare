@@ -2,6 +2,9 @@ Currently it is being tested, only Japanese explanation has become.
 ------ver0.3の内容------
 <リソース>
 土
+砂
+砂利
+氷
 炭
 和紙
 羊皮紙
@@ -17,6 +20,9 @@ Currently it is being tested, only Japanese explanation has become.
 <建築物>
 土採集場&レシピ（パッチ当てなくてもデフォ追加）
 泥採集場&レシピ
+砂採集場&レシピ
+砂利採集場&レシピ
+氷採集場&レシピ
 
 <その他>
 バニラ地形へAffordance追加
