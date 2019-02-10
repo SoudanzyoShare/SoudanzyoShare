@@ -2,6 +2,8 @@
 <LanguageData>
 
   <DoBillsUseRPC_GatheringSpot_Dirt.gerund>で採集する</DoBillsUseRPC_GatheringSpot_Dirt.gerund>
-
+  <DoBillsUseRPC_GatheringSpot_Sand.gerund>で採集する</DoBillsUseRPC_GatheringSpot_Sand.gerund>
+  <DoBillsUseRPC_GatheringSpot_Gravel.gerund>で採集する</DoBillsUseRPC_GatheringSpot_Gravel.gerund>
+  <DoBillsUseRPC_GatheringSpot_Ice.gerund>で採集する</DoBillsUseRPC_GatheringSpot_Ice.gerund>
 
 </LanguageData>

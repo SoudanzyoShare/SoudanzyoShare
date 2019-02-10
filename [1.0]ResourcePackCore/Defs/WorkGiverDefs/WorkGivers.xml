@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!-- ========== 土採集 ========== -->
   <WorkGiverDef>
     <defName>DoBillsUseRPC_GatheringSpot_Dirt</defName>
     <label>gather dirt from the soil</label>
@@ -10,6 +11,63 @@
     <fixedBillGiverDefs>
       <li>RPC_GatheringSpot_Dirt</li>
       <li>RPC_GatheringSpot_Mud</li>
+    </fixedBillGiverDefs>
+    <verb>mine</verb>
+    <gerund>gathering at</gerund>
+    <tagToGive>Fieldwork</tagToGive>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <!-- ========== 砂採集 ========== -->
+  <WorkGiverDef>
+    <defName>DoBillsUseRPC_GatheringSpot_Sand</defName>
+    <label>gather sand from the soil</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>120</priorityInType>
+    <fixedBillGiverDefs>
+      <li>RPC_GatheringSpot_Sand</li>
+    </fixedBillGiverDefs>
+    <verb>mine</verb>
+    <gerund>gathering at</gerund>
+    <tagToGive>Fieldwork</tagToGive>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <!-- ========== 砂利採集 ========== -->
+  <WorkGiverDef>
+    <defName>DoBillsUseRPC_GatheringSpot_Gravel</defName>
+    <label>gather gravel from the soil</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>120</priorityInType>
+    <fixedBillGiverDefs>
+      <li>RPC_GatheringSpot_Gravel</li>
+    </fixedBillGiverDefs>
+    <verb>mine</verb>
+    <gerund>gathering at</gerund>
+    <tagToGive>Fieldwork</tagToGive>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <!-- ========== 氷採集 ========== -->
+  <WorkGiverDef>
+    <defName>DoBillsUseRPC_GatheringSpot_Ice</defName>
+    <label>cutting out ice blocks from the ice surface</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>120</priorityInType>
+    <fixedBillGiverDefs>
+      <li>RPC_GatheringSpot_Ice</li>
     </fixedBillGiverDefs>
     <verb>mine</verb>
     <gerund>gathering at</gerund>
