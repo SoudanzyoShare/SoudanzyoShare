@@ -127,7 +127,7 @@
 		<label>ice</label>
 		<description>A block of the ice.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/RPC_IceBlock/RPC_IceBlock</texPath>
+			<texPath>Things/Item/Resource/RPC_IceBlock</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
