@@ -489,4 +489,31 @@ Paper made from Kouzo is strong and lasts long.</description>
 		<thingCategories>
 		</thingCategories>
 	</ThingDef>
+	
+	<!--=============== 小豆 ====================-->
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>WA_Azuki</defName>
+		<label>Azuki</label>
+		<description>Raw Red beens.The seeds are used for sweet beans, sweets, candies, red rice and the like.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/PlantFoodRaw/WA-Azuki</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.2</MarketValue>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>90</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>	
+	
+	
+	
+	
 </Defs>
