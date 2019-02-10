@@ -127,7 +127,7 @@
 		<label>ice</label>
 		<description>A block of the ice.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/RPC_Ice/RPC_Ice</texPath>
+			<texPath>Things/Item/Resource/RPC_IceBlock/RPC_IceBlock</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
@@ -141,6 +141,7 @@
 			<WorkToMake>100</WorkToMake>
 			<Beauty>-4</Beauty>
 		</statBases>
+		<tickerType>Rare</tickerType>
         	<comps>
             	  <li Class="CompProperties_Rottable">
                     <daysToRotStart>1</daysToRotStart>
