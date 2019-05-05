@@ -52,5 +52,14 @@ This provide generic jobgiver for animals.
 
 
 
+おまけ
+[RPC.CompProperties_Unsleep]
+・睡眠を必要としない動物用
+使用法：動物のThingDefのcompsに以下を追記
+    <comp>
+      <li Class="RPC.CompProperties_Unsleep" />
+...
+
+
 
 
