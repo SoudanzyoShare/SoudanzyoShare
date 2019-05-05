@@ -1,16 +1,16 @@
 
-“®•¨‚ÉŠî–{“I‚Èd–‚ğ—^‚¦‚éƒx[ƒX‚ğ’ñ‹Ÿ‚µ‚Ü‚·B
+å‹•ç‰©ã«åŸºæœ¬çš„ãªä»•äº‹ã‚’ä¸ãˆã‚‹ãƒ™ãƒ¼ã‚¹ã‚’æä¾›ã—ã¾ã™ã€‚
 This provide generic jobgiver for animals.
 
  [RPC.ThinkNode_ChancePerHour_Controllable] : The condition of the frequency of action becomes available.
-					      s“®•p“x‚ÌğŒ‚ªw’è‰Â”\‚É‚È‚è‚Ü‚·B
-					      mtbHours : ‰½ŠÔ‚É‚P‰ñs“®‚·‚é‚©B¬‚³‚¢’l‚Ù‚Ç•p“x‚ª‚‚¢B
+					      è¡Œå‹•é »åº¦ã®æ¡ä»¶ãŒæŒ‡å®šå¯èƒ½ã«ãªã‚Šã¾ã™ã€‚
+					      mtbHours : ä½•æ™‚é–“ã«ï¼‘å›è¡Œå‹•ã™ã‚‹ã‹ã€‚å°ã•ã„å€¤ã»ã©é »åº¦ãŒé«˜ã„ã€‚
 
- [RPC.JobGiver_AnimalWork] : A generic JobGiver(thinktree) for animals.
-			     <workGiverDef>‚É‚³‚¹‚½‚¢d–‚ÌworkGiverDef‚ğw’è‚µ‚Ü‚·B
-			     lŠÔ‚É‚µ‚©‚È‚¢”\—Í’l‚ğQÆ‚·‚é‚¢‚­‚Â‚©‚Ìjob‚Íw’è‚Å‚«‚Ü‚¹‚ñB
+ [RPC.JobGiver_AnimalWork] : A generic JobGiver(thinknode) for animals.
+			     <workGiverDef>ã«ã•ã›ãŸã„ä»•äº‹ã®workGiverDefã‚’æŒ‡å®šã—ã¾ã™ã€‚
+			     äººé–“ã«ã—ã‹ãªã„èƒ½åŠ›å€¤ã‚’å‚ç…§ã™ã‚‹ã„ãã¤ã‹ã®jobã¯æŒ‡å®šã§ãã¾ã›ã‚“ã€‚
 
-[ e.g. add cleaning g—p—áF‘|œJob‚ğ’Ç‰Á‚·‚é ]
+[ e.g. add cleaning ä½¿ç”¨ä¾‹ï¼šæƒé™¤Jobã‚’è¿½åŠ ã™ã‚‹ ]
 
 ------(in Def/ThinkTreeDefs/(AnimalThinkTreeName).xml)------
 
@@ -20,7 +20,7 @@ This provide generic jobgiver for animals.
     <thinkRoot Class="ThinkNode_Priority">
     <subNodes>
 
-...(’†—ª)
+...(ä¸­ç•¥)
 
       <li Class="RPC.ThinkNode_ChancePerHour_Controllable">	//This DLL class
         <mtbHours>1.5</mtbHours>				//Act at least once within this time (hours)
@@ -52,10 +52,10 @@ This provide generic jobgiver for animals.
 
 
 
-‚¨‚Ü‚¯
+ãŠã¾ã‘
 [RPC.CompProperties_Unsleep]
-E‡–°‚ğ•K—v‚Æ‚µ‚È‚¢“®•¨—p
-g—p–@F“®•¨‚ÌThingDef‚Ìcomps‚ÉˆÈ‰º‚ğ’Ç‹L
+ãƒ»ç¡çœ ã‚’å¿…è¦ã¨ã—ãªã„å‹•ç‰©ç”¨
+ä½¿ç”¨æ³•ï¼šå‹•ç‰©ã®ThingDefã®compsã«ä»¥ä¸‹ã‚’è¿½è¨˜
     <comp>
       <li Class="RPC.CompProperties_Unsleep" />
 ...
