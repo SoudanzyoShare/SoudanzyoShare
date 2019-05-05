@@ -1,0 +1,56 @@
+
+動物に基本的な仕事を与えるベースを提供します。
+This provide generic jobgiver for animals.
+
+ [RPC.ThinkNode_ChancePerHour_Controllable] : The condition of the frequency of action becomes available.
+					      行動頻度の条件が指定可能になります。
+					      mtbHours : 何時間に１回行動するか。小さい値ほど頻度が高い。
+
+ [RPC.JobGiver_AnimalWork] : A generic JobGiver(thinktree) for animals.
+			     <workGiverDef>にさせたい仕事のworkGiverDefを指定します。
+			     人間にしかない能力値を参照するいくつかのjobは指定できません。
+
+[ e.g. add cleaning 使用例：掃除Jobを追加する ]
+
+------(in Def/ThinkTreeDefs/(AnimalThinkTreeName).xml)------
+
+<Defs>
+  <ThinkTreeDef>
+    <defName>(YourAnimalThinkTreeName)</defName>
+    <thinkRoot Class="ThinkNode_Priority">
+    <subNodes>
+
+...(中略)
+
+      <li Class="RPC.ThinkNode_ChancePerHour_Controllable">	//This DLL class
+        <mtbHours>1.5</mtbHours>				//Act at least once within this time (hours)
+        <subNodes>
+          <li Class="ThinkNode_ConditionalTrainableCompleted">
+            <trainable>Obedience</trainable>
+            <subNodes>
+              <li Class="RPC.JobGiver_AnimalWork">		//This DLL class
+		<workGiverDef>CleanFilth</workGiverDef>
+	      </li>
+            </subNodes>
+          </li>
+        </subNodes>
+      </li>
+...
+
+
+------(in (YourAnimalDefs).xml)------
+
+<Defs>
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>(YourAnimalName)</defName>
+...
+
+    <race>
+      <thinkTreeMain>L(YourAnimalThinkTreeName)</thinkTreeMain>
+
+-----------------------------------------
+
+
+
+
+
