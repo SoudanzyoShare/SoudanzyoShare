@@ -10,11 +10,57 @@ Please use this patch by moving to the patch folder of your MOD.
 It will be available as soon as you uncomment the resource you want to use.
 -->
 
+  <!--=============== 作業台 WorkSpots ====================-->
+<!--
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_GatheringSpot_Dirt"]/designationCategory</xpath>
+    <value>
+      <designationCategory>
+      	<li>Production</li>
+      </designationCategory>
+    </value>
+  </Operation>
 
-	<!--=============== 土とその採集レシピ追加 ====================-->
-<!--土関係だけは開発者全員が使用するのでデフォで記述してあります。土を使わないという方は消してください。-->
-<!--The soil is described defaultly because all developers will use it. Please remove those who do not want to use soil.-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_GatheringSpot_Sand"]/designationCategory</xpath>
+    <value>
+      <designationCategory>
+      	<li>Production</li>
+      </designationCategory>
+    </value>
+  </Operation>
 
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_GatheringSpot_Gravel"]/designationCategory</xpath>
+    <value>
+      <designationCategory>
+      	<li>Production</li>
+      </designationCategory>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_GatheringSpot_Mud"]/designationCategory</xpath>
+    <value>
+      <designationCategory>
+      	<li>Production</li>
+      </designationCategory>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_GatheringSpot_Ice"]/designationCategory</xpath>
+    <value>
+      <designationCategory>
+      	<li>Production</li>
+      </designationCategory>
+    </value>
+  </Operation>
+-->
+
+  <!--===== リソース Resources =====-->
+	<!--=============== 土 ====================-->
+<!--
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RPC_Dirt"]/thingCategories</xpath>
     <value>
@@ -23,14 +69,7 @@ It will be available as soon as you uncomment the resource you want to use.
       </thingCategories>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/RecipeDef[defName="RPC_Gathering_Dirt"]/recipeUsers</xpath>
-    <value>
-      <recipeUsers>
-      	<li>RPC_GatheringSpot_Dirt</li>
-      </recipeUsers>
-    </value>
-  </Operation>
+-->
 
 	<!--=============== 炭 ====================-->
 <!--

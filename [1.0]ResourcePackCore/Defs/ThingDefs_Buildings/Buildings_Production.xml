@@ -22,7 +22,7 @@
     <scatterableOnMapGen>false</scatterableOnMapGen>
     <useHitPoints>false</useHitPoints>
     <size>(1,1)</size>
-    <designationCategory>Production</designationCategory>
+    <designationCategory></designationCategory>
     <passability>Standable</passability>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -79,7 +79,7 @@
     <scatterableOnMapGen>false</scatterableOnMapGen>
     <useHitPoints>false</useHitPoints>
     <size>(1,1)</size>
-    <designationCategory>Production</designationCategory>
+    <designationCategory></designationCategory>
     <passability>Standable</passability>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -136,7 +136,7 @@
     <scatterableOnMapGen>false</scatterableOnMapGen>
     <useHitPoints>false</useHitPoints>
     <size>(1,1)</size>
-    <designationCategory>Production</designationCategory>
+    <designationCategory></designationCategory>
     <passability>Standable</passability>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -193,7 +193,7 @@
     <scatterableOnMapGen>false</scatterableOnMapGen>
     <useHitPoints>false</useHitPoints>
     <size>(1,1)</size>
-    <designationCategory>Production</designationCategory>
+    <designationCategory></designationCategory>
     <passability>Standable</passability>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -272,7 +272,7 @@
         </comps>
         <terrainAffordanceNeeded>RPC_MudGatherable</terrainAffordanceNeeded>
         <designatorDropdown>RPC_Dropdown_GatherSpot</designatorDropdown>
-        <designationCategory>Production</designationCategory>
+        <designationCategory></designationCategory>
     </ThingDef>
 
 </Defs>
