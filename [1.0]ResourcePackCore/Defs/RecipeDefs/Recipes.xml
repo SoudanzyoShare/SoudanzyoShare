@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+  <!--	レシピ仕様について
+	バニラの作業台を使う場合：<recipeUsers>を空欄にし、各自modのパッチから作業台を指定する。
+	独自の作業台を使う場合：<recipeUsers>に作業台を指定。作業台側の<designationCategory>は空欄に。
+-->
+
+
   <!--=============== 土採集　Gathering dirt ====================-->
 	<RecipeDef>
 		<defName>RPC_Gathering_Dirt</defName>

@@ -10,7 +10,7 @@ Please use this patch by moving to the patch folder of your MOD.
 It will be available as soon as you uncomment the resource you want to use.
 -->
 
-  <!--=============== 作業台 WorkSpots ====================-->
+  <!--=============== 作業台 WorkSpots&Bench ====================-->
 <!--
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RPC_GatheringSpot_Dirt"]/designationCategory</xpath>
@@ -58,11 +58,53 @@ It will be available as soon as you uncomment the resource you want to use.
   </Operation>
 -->
 
-  <!--===== リソース Resources =====-->
-	<!--=============== 土 ====================-->
+
+  <!--=============== リソース Resources ====================-->
+
+	<!--=============== 土壌資源(土、砂利、砂、泥、氷) ====================-->
 <!--
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RPC_Dirt"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+      	<li>ResourcesRaw</li>
+      </thingCategories>
+    </value>
+  </Operation>
+-->
+<!--
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_Gravel"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+      	<li>ResourcesRaw</li>
+      </thingCategories>
+    </value>
+  </Operation>
+-->
+<!--
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_Sand"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+      	<li>ResourcesRaw</li>
+      </thingCategories>
+    </value>
+  </Operation>
+-->
+<!--
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_Mud"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+      	<li>ResourcesRaw</li>
+      </thingCategories>
+    </value>
+  </Operation>
+-->
+<!--
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_Ice"]/thingCategories</xpath>
     <value>
       <thingCategories>
       	<li>ResourcesRaw</li>
@@ -121,6 +163,17 @@ It will be available as soon as you uncomment the resource you want to use.
     </value>
   </Operation>
 -->
+	<!--=============== 羊皮紙 ====================-->
+<!--
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_Parchment"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+      	<li>ResourcesRaw</li>
+      </thingCategories>
+    </value>
+  </Operation>
+-->
 	<!--=============== 繭 ====================-->
 <!--
   <Operation Class="PatchOperationReplace">
@@ -152,11 +205,97 @@ It will be available as soon as you uncomment the resource you want to use.
     </value>
   </Operation>
 -->
+	<!--=============== ガラス材 ====================-->
+<!--
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_GlassCullet"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+      	<li>ResourcesRaw</li>
+      </thingCategories>
+    </value>
+  </Operation>
+-->
+	<!--=============== 堆肥 ====================-->
+<!--
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_Compost"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+      	<li>ResourcesRaw</li>
+      </thingCategories>
+    </value>
+  </Operation>
+-->
+	<!--=============== 白米 ====================-->
+<!--ジパング以外のモッダー用パッチ Patch for modder other than Zipangu
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+        <li Class="PatchOperationFindMod">
+	  <mods>
+	    <li>【ZP】Rice cultivating civilization</li>
+	  </mods>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="WhiteRice"]/thingCategories</xpath>
+	    <value>
+	      <thingCategories>
+		<li>PlantFoodRaw</li>
+	      </thingCategories>
+	    </value>
+	  </nomatch>
+        </li>
+    </operations>
+  </Operation>
+-->
+	<!--=============== 大豆 ====================-->
+<!--ジパング以外のモッダー用パッチ Patch for modder other than Zipangu
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+        <li Class="PatchOperationFindMod">
+	  <mods>
+	    <li>【ZP】Rice cultivating civilization</li>
+	  </mods>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="ZP_SoyBeen"]/thingCategories</xpath>
+	    <value>
+	      <thingCategories>
+		<li>PlantFoodRaw</li>
+	      </thingCategories>
+	    </value>
+	  </nomatch>
+        </li>
+    </operations>
+  </Operation>
+-->
+	<!--=============== 小豆 ====================-->
+<!--WA以外のモッダー用パッチ Patch for modder other than WA series
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+        <li Class="PatchOperationFindMod">
+	  <mods>
+	    <li>WA v1.0</li>
+	  </mods>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="WA_Azuki"]/thingCategories</xpath>
+	    <value>
+	      <thingCategories>
+		<li>PlantFoodRaw</li>
+	      </thingCategories>
+	    </value>
+	  </nomatch>
+        </li>
+    </operations>
+  </Operation>
+-->
+
 
 </Patch>
 
 <!--以下、参考情報
-・thingCategories引数
+・thingCategories
 		public static ThingCategoryDef Foods;
 		public static ThingCategoryDef FoodMeals;
 		public static ThingCategoryDef Manufactured;
@@ -185,7 +324,7 @@ It will be available as soon as you uncomment the resource you want to use.
 	リソースパックのデフォルトは記述なし。利用する場合この項目だけは必須。
 
 （↓は商人に持ってこさせる場合）
-・Tradeability引数
+・Tradeability
 		None,
 		Sellable,
 		Buyable,

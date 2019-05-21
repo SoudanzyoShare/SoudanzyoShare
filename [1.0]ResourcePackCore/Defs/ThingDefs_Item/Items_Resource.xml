@@ -39,7 +39,7 @@
 		<statBases>
 			<MarketValue>0.01</MarketValue>
       			<MaxHitPoints>150</MaxHitPoints>
-      			<Mass>0.4</Mass> 
+      			<Mass>0.5</Mass> 
       			<Flammability>0</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
 			<WorkToMake>100</WorkToMake>
@@ -71,7 +71,7 @@
 		<statBases>
 			<MarketValue>0.01</MarketValue>
       			<MaxHitPoints>150</MaxHitPoints>
-      			<Mass>0.4</Mass> 
+      			<Mass>0.5</Mass> 
       			<Flammability>0</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
 			<WorkToMake>100</WorkToMake>
@@ -103,7 +103,7 @@
 		<statBases>
 			<MarketValue>0.01</MarketValue>
       			<MaxHitPoints>150</MaxHitPoints>
-      			<Mass>0.4</Mass> 
+      			<Mass>0.5</Mass> 
       			<Flammability>0</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
 			<WorkToMake>100</WorkToMake>
@@ -175,7 +175,7 @@
 		<statBases>
 			<MarketValue>1.8</MarketValue>
       			<MaxHitPoints>150</MaxHitPoints>
-      			<Mass>0.2</Mass> 
+      			<Mass>0.1</Mass> 
       			<Flammability>1.0</Flammability>
 			<DeteriorationRate>1</DeteriorationRate>
 			<WorkToMake>500</WorkToMake>
@@ -370,7 +370,7 @@
 		<statBases>
 			<MarketValue>0.2</MarketValue>
       			<MaxHitPoints>150</MaxHitPoints>
-      			<Mass>0.1</Mass> 
+      			<Mass>0.2</Mass> 
       			<Flammability>0</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
