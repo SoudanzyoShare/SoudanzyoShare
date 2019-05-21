@@ -5,9 +5,17 @@
 
 ここで自分が使う素材だけにパッチをあてる。
 ↓実際使うときは前後のコメントアウトを外すだけでＯＫ
-
 Please use this patch by moving to the patch folder of your MOD.
 It will be available as soon as you uncomment the resource you want to use.
+
+
+仕様解説
+　資源：空欄の<thingCategories>を置換することで空から降ってきたり貯蔵できるようになる。
+　作業台：空欄の<designationCategory>を置換することでメニューに登場する。
+　　　　　独自作業台であればレシピはすでに登録されている。
+　レシピ：空欄の<recipeUsers>にバニラ作業台を指定することで利用できるようになる。
+　　　　　バニラの作業台を使うレシピはすべてこのタイプ。
+　　　　　
 -->
 
   <!--=============== 作業台 WorkSpots&Bench ====================-->
@@ -367,5 +375,16 @@ It will be available as soon as you uncomment the resource you want to use.
     </value>
   </Operation>
 	バニラの商人DefNameはTraderKindDefsから。
+
+・その他Tips1
+　全く同じ操作を行う物は"or"で連結する事で多少のロード時間改善が見込める。
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_Dirt" or defName="RPC_Mud" or defName="..."]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+      	<li>ResourcesRaw</li>
+      </thingCategories>
+    </value>
+  </Operation>
 
 -->
