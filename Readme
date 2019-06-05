@@ -54,6 +54,7 @@ ver管理開始しました。
 この性質上、Replaceを行う項目に関しては
 最後に呼び出されたMODのものになります(詳細はPatch_for_RPC.xmlをご覧下さいませ)。
 
+
 -------Special Thanks------
 中国語 by Shion
 
