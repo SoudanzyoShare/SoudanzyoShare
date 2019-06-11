@@ -53,7 +53,7 @@
   </ThingDef>
 -->
 
-<!--カテゴリ、トレードのタグは外す。-->
+<!--thingCategories、tradeTagsは記述無し、tradeablilityはSellableがデフォルト-->
 	
 	<!--=============== 土 ====================-->
 	<ThingDef ParentName="ResourceBase">
@@ -445,6 +445,7 @@
         <socialPropernessMatters>true</socialPropernessMatters>
         <thingCategories>
 	</thingCategories>
+	<tradeability>Sellable</tradeability>
     </ThingDef>
 
 	<!--=============== 大豆 ====================-->
@@ -477,6 +478,7 @@
         <socialPropernessMatters>true</socialPropernessMatters>
         <thingCategories>
 	</thingCategories>
+	<tradeability>Sellable</tradeability>
     </ThingDef>
 	
 	<!--=============== 繭 ====================-->
@@ -497,6 +499,7 @@ Weaving the thread by spinning it will become the finest textile.</description>
 		</statBases>
 		<thingCategories>
 		</thingCategories>
+		<tradeability>Sellable</tradeability>
 	</ThingDef>
 
 	<!--=============== 楮 ====================-->
@@ -518,6 +521,7 @@ Paper made from Kouzo is strong and lasts long.</description>
 		</statBases>
 		<thingCategories>
 		</thingCategories>
+		<tradeability>Sellable</tradeability>
 	</ThingDef>
 	
 	<!--=============== 小豆 ====================-->
@@ -541,6 +545,7 @@ Paper made from Kouzo is strong and lasts long.</description>
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
+		<tradeability>Sellable</tradeability>
 	</ThingDef>	
 	
 	
