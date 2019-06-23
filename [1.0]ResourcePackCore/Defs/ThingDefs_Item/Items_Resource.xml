@@ -548,81 +548,81 @@ Paper made from Kouzo is strong and lasts long.</description>
 		<tradeability>Sellable</tradeability>
 	</ThingDef>	
 	
-	<!--=============== 薪 ====================-->
-	<ThingDef ParentName="ResourceBase">
-        　<defName>RPC_Firewood</defName>
-        　<label>firewood</label>
-        　<description>Wood that can only be used for fueling.</description>
-        　<graphicData>
-            　<texPath>Things/Item/Resource/RPC_Firewood/RPC_Firewood</texPath>
-            　<graphicClass>Graphic_Single</graphicClass>
-       　 </graphicData>
-        　<stackLimit>150</stackLimit>
-        　<statBases>
-            　<MaxHitPoints>50</MaxHitPoints>
-           　 <MarketValue>0.5</MarketValue>
-            　<Mass>0.5</Mass>
-            　<Flammability>2</Flammability>
-            　<DeteriorationRate>10</DeteriorationRate>
-        　</statBases>
-        　<tradeability>None</tradeability>
-        　<thingCategories></thingCategories>
-    　　</ThingDef>
+    <!--=============== 薪 ====================-->
+    <ThingDef ParentName="ResourceBase">
+        <defName>RPC_Firewood</defName>
+        <label>firewood</label>
+        <description>Wood that can only be used for fueling.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/RPC_Firewood/RPC_Firewood</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <stackLimit>150</stackLimit>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <MarketValue>0.5</MarketValue>
+            <Mass>0.5</Mass>
+            <Flammability>2</Flammability>
+            <DeteriorationRate>10</DeteriorationRate>
+        </statBases>
+        <tradeability>None</tradeability>
+        <thingCategories></thingCategories>
+    </ThingDef>
 	
-	<!--=============== 砂鉄 ====================-->
-	<ThingDef ParentName="ResourceBase">
-        　<defName>RPC_IronSand</defName>
-        　<label>iron sand</label>
-        　<description>Main raw material of steelmaking.</description>
-        　<graphicData>
-           　 <texPath>Things/Item/Resource/RPC_IronSand/RPC_IronSand</texPath>
-            　<graphicClass>Graphic_Single</graphicClass>
-        　</graphicData>
-        　<soundInteract>Metal_Drop</soundInteract>
-        　<soundDrop>Metal_Drop</soundDrop>
-        　<statBases>
-            　<MaxHitPoints>50</MaxHitPoints>
-            　<MarketValue>1.4</MarketValue>
-            　<Mass>1.0</Mass>
-            　<Flammability>0.2</Flammability>
-            　<DeteriorationRate>10</DeteriorationRate>
-        　</statBases>
-        　<tradeability>None</tradeability>
-        　<thingCategories></thingCategories>
-    　　</ThingDef>
+    <!--=============== 砂鉄 ====================-->
+    <ThingDef ParentName="ResourceBase">
+        <defName>RPC_IronSand</defName>
+        <label>iron sand</label>
+        <description>Main raw material of steelmaking.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/RPC_IronSand/RPC_IronSand</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <MarketValue>1.4</MarketValue>
+            <Mass>1.0</Mass>
+            <Flammability>0.2</Flammability>
+            <DeteriorationRate>10</DeteriorationRate>
+        </statBases>
+        <tradeability>None</tradeability>
+        <thingCategories></thingCategories>
+    </ThingDef>
 	
-	<!--=============== 銑鉄 ====================-->
-	<ThingDef ParentName="ResourceBase">
-        　<defName>RPC_PigIron</defName>
-        　<label>pig iron</label>
-        　<description>A pig iron that has succeeded in increasing durability by refining using sand iron and charcoal and removing impurities. It is also a material of wrought iron.</description>
-        　<graphicData>
-            　<texPath>Things/Item/Resource/RPC_PigIron/RPC_PigIron</texPath>
-            　<graphicClass>Graphic_Single</graphicClass>
-        　</graphicData>
-        　<soundInteract>Metal_Drop</soundInteract>
-        　<soundDrop>Metal_Drop</soundDrop>
-        　<statBases>
-            　<MarketValue>3.0</MarketValue>
-            　<Mass>0.5</Mass>
-            　<StuffPower_Armor_Sharp>1.02</StuffPower_Armor_Sharp>
-            　<StuffPower_Armor_Blunt>0.50</StuffPower_Armor_Blunt>
-            　<StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
-            　<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
-            　<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-            　<SharpDamageMultiplier>0.8</SharpDamageMultiplier>
-            　<BluntDamageMultiplier>1.25</BluntDamageMultiplier>
-        　</statBases>
-        　<useHitPoints>false</useHitPoints>
-        　<thingCategories></thingCategories>
-        　<stuffProps>
-            　<categories></categories>
-            　<constructEffect>ConstructMetal</constructEffect>
-            　<color>(51,51,51)</color>
-            　<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
-            　<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-            　<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-          　<statFactors>
+    <!--=============== 銑鉄 ====================-->
+    <ThingDef ParentName="ResourceBase">
+        <defName>RPC_PigIron</defName>
+        <label>pig iron</label>
+        <description>A pig iron that has succeeded in increasing durability by refining using sand iron and charcoal and removing impurities. It is also a material of wrought iron.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/RPC_PigIron/RPC_PigIron</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <statBases>
+            <MarketValue>3.0</MarketValue>
+            <Mass>0.5</Mass>
+            <StuffPower_Armor_Sharp>1.02</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.50</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
+            <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+            <SharpDamageMultiplier>0.8</SharpDamageMultiplier>
+            <BluntDamageMultiplier>1.25</BluntDamageMultiplier>
+        </statBases>
+        <useHitPoints>false</useHitPoints>
+        <thingCategories></thingCategories>
+        <stuffProps>
+            <categories></categories>
+            <constructEffect>ConstructMetal</constructEffect>
+            <color>(51,51,51)</color>
+            <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+            <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+            <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+            <statFactors>
                 <MaxHitPoints>2.4</MaxHitPoints>
                 <Beauty>2</Beauty>
                 <Flammability>0.2</Flammability>
@@ -630,15 +630,16 @@ Paper made from Kouzo is strong and lasts long.</description>
                 <WorkToBuild>2.2</WorkToBuild>
                 <MeleeWeapon_CooldownMultiplier>1.2</MeleeWeapon_CooldownMultiplier>
             </statFactors>
-          　<statOffsets>
+            <statOffsets>
                 <Beauty>2</Beauty>
             </statOffsets>
             <smeltable>true</smeltable>
-        　</stuffProps>
-        　<tradeability>None</tradeability>
-    　</ThingDef>
-　　　<!--=============== 錬鉄 ====================-->
-　　　   <ThingDef ParentName="ResourceBase">
+        </stuffProps>
+        <tradeability>None</tradeability>
+    </ThingDef>
+	
+    <!--=============== 錬鉄 ====================-->
+    <ThingDef ParentName="ResourceBase">
         <defName>RPC_WroughtIron</defName>
         <label>wrought iron</label>
         <description>Iron that has become tough and flexible by adjusting the carbon content of pig iron. Suitable for armor production etc.</description>
@@ -684,8 +685,8 @@ Paper made from Kouzo is strong and lasts long.</description>
         <tradeability>None</tradeability>
     </ThingDef>
 
-　　<!--=============== 玉鋼 ====================-->
-　　　<ThingDef ParentName="ResourceBase">
+    <!--=============== 玉鋼 ====================-->
+    <ThingDef ParentName="ResourceBase">
         <defName>RPC_Tamahagane</defName>
         <label>tamahagane</label>
         <description>A generic term for the highest quality steel among high purity steels. It is suitable for making weapons with the Cut attribute such as swords.</description>
