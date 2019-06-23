@@ -44,9 +44,28 @@
     <RPC_Kouzo.description>楮から樹皮を剥ぎ束ねたものです。楮の皮の繊維は長く繊維が絡み合う性質が強く、紙にすることで粘りが強く丈夫になります。</RPC_Kouzo.description>
 
     <RPC_Cocoon.label>繭</RPC_Cocoon.label>
-    <RPC_Cocoon.description>蚕の幼虫が作る繭です。糸を紡いで織り込むことで最上級の織物になります。</RPC_Cocoon.description>
-    
+    <RPC_Cocoon.description>蚕の幼虫が作る繭です。糸を紡いで織り込むことで最上級の織物になります。</RPC_Cocoon.description>    
     
     <WA_Azuki.label>小豆</WA_Azuki.label>
     <WA_Azuki.description>マメ科の赤い種子です。甘納豆、餡、菓子、赤飯など幅広い用途に用いられます。</WA_Azuki.description>
+    
+    <RPC_Firewood.label>薪</RPC_Firewood.label>
+  　<RPC_Firewood.description>燃料補給にしか使えない木材。</RPC_Firewood.description>
+
+  　<RPC_IronSand.label>砂鉄</RPC_IronSand.label>
+ 　 <RPC_IronSand.description>製鉄の主原料。</RPC_IronSand.description>
+
+  　<RPC_PigIron.label>銑鉄</RPC_PigIron.label>
+ 　 <RPC_PigIron.description>(読み:せんてつ)。砂鉄と木炭を精錬し不純物を除くことで耐久度上昇に成功した銑鉄。錬鉄の材料にもなる。</RPC_PigIron.description>
+ 　 <RPC_PigIron.stuffProps.stuffAdjective>銑鉄</RPC_PigIron.stuffProps.stuffAdjective>
+
+    <RPC_WroughtIron.label>錬鉄</RPC_WroughtIron.label>
+    <RPC_WroughtIron.description>(読み:れんてつ)。銑鉄を叩いて炭素量を調整することでより強靭で柔軟になった鉄。防具製作等に適しています。</RPC_WroughtIron.description>
+    <RPC_WroughtIron.stuffProps.stuffAdjective>錬鉄</RPC_WroughtIron.stuffProps.stuffAdjective>
+
+    <RPC_Tamahagane.label>玉鋼</RPC_Tamahagane.label>
+    <RPC_Tamahagane.description>(読み:たまはがね)。鉧押し(けらおし)法で精錬された高純度鋼の中で最高品質の鋼の総称。剣等のCut属性を持つ武器を作るのに適しています。</RPC_Tamahagane.description>
+    <RPC_Tamahagane.stuffProps.stuffAdjective>玉鋼</RPC_Tamahagane.stuffProps.stuffAdjective>
+    
+    
 </LanguageData>
