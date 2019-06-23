@@ -298,7 +298,148 @@ It will be available as soon as you uncomment the resource you want to use.
     </operations>
   </Operation>
 -->
+	<!--=============== 薪 ====================-->
+<!--たたら製鉄以外のモッダー用パッチ Patch for modder other than WA series
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+        <li Class="PatchOperationFindMod">
+	  <mods>
+	    <li>【ZP】たたら製鉄</li>
+	  </mods>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="RPC_Firewood"]/thingCategories</xpath>
+	    <value>
+	      <thingCategories>
+                  <li>ResourcesRaw</li>
+	      </thingCategories>
+	    </value>
+	  </nomatch>
+        </li>
+    </operations>
+  </Operation>
+-->
+	<!--=============== 砂鉄 ====================-->
+<!--たたら製鉄以外のモッダー用パッチ Patch for modder other than WA series
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+        <li Class="PatchOperationFindMod">
+	  <mods>
+	    <li>【ZP】たたら製鉄</li>
+	  </mods>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="RPC_IronSand"]/thingCategories</xpath>
+	    <value>
+	      <thingCategories>
+                  <li>ResourcesRaw</li>
+	      </thingCategories>
+	    </value>
+	  </nomatch>
+        </li>
+    </operations>
+  </Operation>
+-->
+	<!--=============== 銑鉄 ====================-->
+<!--たたら製鉄以外のモッダー用パッチ Patch for modder other than WA series
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+        <li Class="PatchOperationFindMod">
+	  <mods>
+	    <li>【ZP】たたら製鉄</li>
+	  </mods>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="RPC_PigIron"]/thingCategories</xpath>
+	    <value>
+	      <thingCategories>
+                  <li>ResourcesRaw</li>
+	      </thingCategories>
+	    </value>
+	  </nomatch>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="RPC_PigIron"]/stuffProps/categories</xpath>
+	    <value>
+               <categories>
+                  <li>Metallic</li>
+               </categories>
+	    </value>
+	  </nomatch>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName=""RPC_PigIron"]/tradeability/text()</xpath>
+             <value>All</value>
+	  </nomatch>
+        </li>
+    </operations>
+  </Operation>
+-->	
 
+	<!--=============== 錬鉄 ====================-->
+<!--たたら製鉄以外のモッダー用パッチ Patch for modder other than WA series
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+        <li Class="PatchOperationFindMod">
+	  <mods>
+	    <li>【ZP】たたら製鉄</li>
+	  </mods>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="RPC_WroughtIron"]/thingCategories</xpath>
+	    <value>
+	      <thingCategories>
+                  <li>ResourcesRaw</li>
+	      </thingCategories>
+	    </value>
+	  </nomatch>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="RPC_WroughtIron"]/stuffProps/categories</xpath>
+	    <value>
+               <categories>
+                  <li>Metallic</li>
+               </categories>
+	    </value>
+	  </nomatch>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="RPC_WroughtIron"]/tradeability/text()</xpath>
+             <value>All</value>
+	  </nomatch>
+        </li>
+    </operations>
+  </Operation>
+-->
+	<!--=============== 玉鋼 ====================-->
+<!--たたら製鉄以外のモッダー用パッチ Patch for modder other than WA series
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+        <li Class="PatchOperationFindMod">
+	  <mods>
+	    <li>【ZP】たたら製鉄</li>
+	  </mods>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="RPC_Tamahagane"]/thingCategories</xpath>
+	    <value>
+	      <thingCategories>
+                  <li>ResourcesRaw</li>
+	      </thingCategories>
+	    </value>
+	  </nomatch>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="RPC_Tamahagane"]/stuffProps/categories</xpath>
+	    <value>
+               <categories>
+                  <li>Metallic</li>
+               </categories>
+	    </value>
+	  </nomatch>
+	  <nomatch Class="PatchOperationReplace">
+	  <xpath>Defs/ThingDef[defName="RPC_Tamahagane"]/tradeability/text()</xpath>
+             <value>All</value>
+	  </nomatch>
+        </li>
+    </operations>
+  </Operation>
+-->
 
 </Patch>
 
