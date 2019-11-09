@@ -545,6 +545,8 @@ Paper made from Kouzo is strong and lasts long.</description>
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
+        <thingCategories>
+	</thingCategories>		
 		<tradeability>Sellable</tradeability>
 	</ThingDef>	
 	
