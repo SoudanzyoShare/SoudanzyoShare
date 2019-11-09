@@ -525,30 +525,35 @@ Paper made from Kouzo is strong and lasts long.</description>
 	</ThingDef>
 	
 	<!--=============== 小豆 ====================-->
-	<ThingDef ParentName="PlantFoodRawBase">
-		<defName>WA_Azuki</defName>
-		<label>Azuki</label>
-		<description>Raw Red beens.The seeds are used for sweet beans, sweets, candies, red rice and the like.</description>
-		<graphicData>
-			<texPath>Things/Item/PlantFoodRaw/WA-Azuki</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>1.2</MarketValue>
-		</statBases>
-		<ingestible>
-			<foodType>VegetableOrFruit</foodType>
-		</ingestible>
-		<comps>
-			<li Class="CompProperties_Rottable">
-				<daysToRotStart>90</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
-		</comps>
-        <thingCategories>
-	</thingCategories>		
-		<tradeability>Sellable</tradeability>
-	</ThingDef>	
+    <ThingDef ParentName="OrganicProductBase">
+        <defName>WA_Azuki</defName>
+        <label>Azuki</label>
+        <description>Raw Red beens.The seeds are used for sweet beans, sweets, candies, red rice and the like.</description>
+        <graphicData>
+            <texPath>Things/Item/PlantFoodRaw/WA-Azuki</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <Nutrition>0.05</Nutrition>
+            <MarketValue>1.2</MarketValue>
+            <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+        </statBases>
+        <ingestible>
+            <foodType>VegetableOrFruit</foodType>
+            <preferability>RawBad</preferability>
+            <tasteThought>AteRawFood</tasteThought>
+            <ingestEffect>EatVegetarian</ingestEffect>
+            <ingestSound>RawVegetable_Eat</ingestSound>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>90</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <thingCategories></thingCategories>
+        <tradeability>Sellable</tradeability>
+    </ThingDef>
 	
     <!--=============== 薪 ====================-->
     <ThingDef ParentName="ResourceBase">
