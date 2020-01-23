@@ -173,11 +173,10 @@
 		</statBases>
 		<tickerType>Rare</tickerType>
         	<comps>
-            	  <li Class="CompProperties_Rottable">
-                    <daysToRotStart>1</daysToRotStart>
-                    <rotDestroys>true</rotDestroys>
-        	  </li>
-        	</comps>
+      		  <li>
+        	    <compClass>CompMelter</compClass>
+      		  </li>
+    		</comps>
 		<stuffProps>
 			<commonality>0</commonality>
 		</stuffProps>
