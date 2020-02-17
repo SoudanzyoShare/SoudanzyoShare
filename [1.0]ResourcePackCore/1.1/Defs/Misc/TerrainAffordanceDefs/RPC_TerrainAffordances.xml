@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 土採集可 -->
+  <TerrainAffordanceDef>
+    <defName>RPC_DirtGatherable</defName>
+    <label>dirt gatherable</label>
+    <order>3101</order>
+  </TerrainAffordanceDef>
+
+  <!-- 砂利採集可 -->
+  <TerrainAffordanceDef>
+    <defName>RPC_GravelGatherable</defName>
+    <label>gravel gatherable</label>
+    <order>3102</order>
+  </TerrainAffordanceDef>
+
+  <!-- 砂採集可 -->
+  <TerrainAffordanceDef>
+    <defName>RPC_SandGatherable</defName>
+    <label>sand gatherable</label>
+    <order>3103</order>
+  </TerrainAffordanceDef>
+
+  <!-- 泥採集可 -->
+  <TerrainAffordanceDef>
+    <defName>RPC_MudGatherable</defName>
+    <label>mud gatherable</label>
+    <order>3104</order>
+  </TerrainAffordanceDef>
+
+  <!-- 氷採集可 -->
+  <TerrainAffordanceDef>
+    <defName>RPC_IceGatherable</defName>
+    <label>ice gatherable</label>
+    <order>3105</order>
+  </TerrainAffordanceDef>
+
+</Defs>
