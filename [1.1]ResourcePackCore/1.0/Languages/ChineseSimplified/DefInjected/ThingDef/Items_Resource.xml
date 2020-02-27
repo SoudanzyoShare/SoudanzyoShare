@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <RPC_Dirt.label>土壤</RPC_Dirt.label>
+    <RPC_Dirt.description>从土堆中採取的土。</RPC_Dirt.description>
+    
+    <RPC_Sand.label>沙子</RPC_Sand.label>
+    <RPC_Sand.description>从砂地採取的沙子。</RPC_Sand.description>
+    
+    <RPC_Gravel.label>砾石</RPC_Gravel.label>
+    <RPC_Gravel.description>从地面採取的砾石。</RPC_Gravel.description>
+    
+    <RPC_Ice.label>冰</RPC_Ice.label>
+    <RPC_Ice.description>从冰地採取的冰。</RPC_Ice.description>
+
+    <RPC_Charcoal.label>木炭</RPC_Charcoal.label>
+    <RPC_Charcoal.description>将木材闷烧后炭化製成的炭。在製作工程中能以控制煅烧时间的长短来製成白炭、黑炭等不同性质的木炭。</RPC_Charcoal.description>
+
+    <RPC_JapanesePaper.label>和纸</RPC_JapanesePaper.label>
+    <RPC_JapanesePaper.description>和纸，日本传统的纸。用楮皮等长而牢固的植物纤维来抄造成纸。具有轻薄耐用，适于保存的特徵。</RPC_JapanesePaper.description>
+
+    <RPC_Parchment.label>羊皮纸</RPC_Parchment.label>
+    <RPC_Parchment.description>以动物的皮製成，用于书写及製作工艺品的传统材料。透过石灰将原皮脱脂、脱毛后，摊开后将表皮与下皮削去而成。需耗长时製作。</RPC_Parchment.description>
+
+    <RPC_PureSilk.label>正绢</RPC_PureSilk.label>
+    <RPC_PureSilk.description>毫无杂质的绢丝，丝绸是由蚕丝製成的动物性纤维，轻盈柔软、具吸湿性、通气性。</RPC_PureSilk.description>
+
+    <RPC_Compost.label>堆肥</RPC_Compost.label>
+    <RPC_Compost.description>让植物发酵製成的肥料，改良土壤时的必需品。</RPC_Compost.description>
+
+    <RPC_Mud.label>泥</RPC_Mud.label>
+    <RPC_Mud.description>改良土壤时的必需品。</RPC_Mud.description>
+    
+    <WhiteRice.label>白米</WhiteRice.label>
+    <WhiteRice.description>细心脱穀后精磨製成的白米。\n在精米过程中会去掉部分营养素，但味道上也会有显着提升。</WhiteRice.description>
+    
+    <ZP_SoyBeen.label>大豆</ZP_SoyBeen.label>
+    <ZP_SoyBeen.description>高保存性，加工后可做为肉的替代品。是味噌与酱油的原料。</ZP_SoyBeen.description>
+    
+    <RPC_GlassCullet.label>玻璃建材</RPC_GlassCullet.label>
+    <RPC_GlassCullet.description>为了方便加工而粉碎成细屑的碎玻璃。</RPC_GlassCullet.description>
+
+    <RPC_Kouzo.label>楮皮</RPC_Kouzo.label>
+    <RPC_Kouzo.description>将楮树的树皮剥下捆成束状的物品，楮皮的纤维长而相纠结，性质强韧而能製成耐用的纸张。</RPC_Kouzo.description>
+
+    <RPC_Cocoon.label>茧</RPC_Cocoon.label>
+    <RPC_Cocoon.description>蚕的幼虫所做的茧，将蚕丝纺织成细绢后能缝製成最上级的纺织品。</RPC_Cocoon.description>
+    
+    <WA_Azuki.label>红豆</WA_Azuki.label>
+    <WA_Azuki.description>豆科的红色种子，能製成甘纳豆、甜馅、菓子，红豆饭等，用途十分广泛。</WA_Azuki.description>
+    
+</LanguageData>

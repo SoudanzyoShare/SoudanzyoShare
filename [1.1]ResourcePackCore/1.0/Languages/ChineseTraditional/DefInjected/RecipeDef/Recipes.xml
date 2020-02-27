@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <RPC_Gathering_Dirt.label>採集土壤</RPC_Gathering_Dirt.label>
+    <RPC_Gathering_Dirt.description>從地面採集土壤。</RPC_Gathering_Dirt.description>
+    <RPC_Gathering_Dirt.jobString>採集土壤中</RPC_Gathering_Dirt.jobString>
+
+    <RPC_Gathering_Sand.label>採集沙子</RPC_Gathering_Sand.label>
+    <RPC_Gathering_Sand.description>從地面採集沙子。</RPC_Gathering_Sand.description>
+    <RPC_Gathering_Sand.jobString>採集砂子中</RPC_Gathering_Sand.jobString>
+
+    <RPC_Gathering_Gravel.label>採集礫石</RPC_Gathering_Gravel.label>
+    <RPC_Gathering_Gravel.description>從地面採集礫石。</RPC_Gathering_Gravel.description>
+    <RPC_Gathering_Gravel.jobString>採集礫石中</RPC_Gathering_Gravel.jobString>
+
+    <RPC_Gathering_Ice.label>採取冰</RPC_Gathering_Ice.label>
+    <RPC_Gathering_Ice.description>在冰地上挖取冰。</RPC_Gathering_Ice.description>
+    <RPC_Gathering_Ice.jobString>冰</RPC_Gathering_Ice.jobString>
+
+	<!--============ 繭 ============-->
+    <RPC_MakePureSilk.label>紡織絲綢</RPC_MakePureSilk.label>
+    <RPC_MakePureSilk.description>將生絲紡織成絲綢。</RPC_MakePureSilk.description>
+    <RPC_MakePureSilk.jobString>紡織絲綢中。</RPC_MakePureSilk.jobString>
+
+	<!--============ 楮 ============-->
+    <RPC_MakePaper.label>製作和紙</RPC_MakePaper.label>
+    <RPC_MakePaper.description>抄造楮皮以製成和紙。</RPC_MakePaper.description>
+    <RPC_MakePaper.jobString>製作和紙中。</RPC_MakePaper.jobString>
+	
+	<!--============ 泥 ============-->
+    <ZP_CollectMud.label>採集泥巴</ZP_CollectMud.label>
+    <ZP_CollectMud.description>從地面採集泥巴。</ZP_CollectMud.description>
+	
+</LanguageData>

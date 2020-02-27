@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <RPC_Dirt.label>土</RPC_Dirt.label>
+    <RPC_Dirt.description>土壌から採取された土です。</RPC_Dirt.description>
+    
+    <RPC_Sand.label>砂</RPC_Sand.label>
+    <RPC_Sand.description>砂地から採取された砂です。</RPC_Sand.description>
+    
+    <RPC_Gravel.label>砂利</RPC_Gravel.label>
+    <RPC_Gravel.description>土壌から採取された砂利です。</RPC_Gravel.description>
+    
+    <RPC_Ice.label>氷</RPC_Ice.label>
+    <RPC_Ice.description>氷面から採取された氷です。</RPC_Ice.description>
+
+    <RPC_Charcoal.label>炭</RPC_Charcoal.label>
+    <RPC_Charcoal.description>木材を蒸し焼きにし炭化させて作られた炭です。精製工程である「ネラシ」の違いによって白炭、黒炭のような異なる性質の木炭が生まれます。</RPC_Charcoal.description>
+
+    <RPC_JapanesePaper.label>和紙</RPC_JapanesePaper.label>
+    <RPC_JapanesePaper.description>日本の伝統的な紙です。楮のような長く丈夫な繊維の植物を漉いて作ります。薄く、丈夫で保存に適した特徴を持っています。</RPC_JapanesePaper.description>
+
+    <RPC_Parchment.label>羊皮紙</RPC_Parchment.label>
+    <RPC_Parchment.description>動物の皮から作られた、筆写や工芸品の伝統的な材料です。原皮を石灰で脱脂、脱毛した後、展張し表皮や下皮を削ぎ落として作られます。製造には長い時間を要します。</RPC_Parchment.description>
+
+    <RPC_PureSilk.label>正絹</RPC_PureSilk.label>
+    <RPC_PureSilk.description>混じり物のない絹生地です。絹は繭からとれる動物性繊維で、柔らかくて軽く、吸湿性・通気性に富みます。</RPC_PureSilk.description>
+
+    <RPC_Compost.label>堆肥</RPC_Compost.label>
+    <RPC_Compost.description>植物を発酵させ肥料にしたもの。土壌改良の際に必要。</RPC_Compost.description>
+
+    <RPC_Mud.label>泥</RPC_Mud.label>
+    <RPC_Mud.description>土壌改良の際に必要。</RPC_Mud.description>
+    
+    <WhiteRice.label>白米</WhiteRice.label>
+    <WhiteRice.description>丁寧に脱穀して精米したお米。\n精米する過程で栄養素を削りとってしまうが味は抜群によくなる。</WhiteRice.description>
+    
+    <ZP_SoyBeen.label>大豆</ZP_SoyBeen.label>
+    <ZP_SoyBeen.description>保存性が高く加工すれば肉の代替品として便利。味噌や醤油の原材料。</ZP_SoyBeen.description>
+    
+    <RPC_GlassCullet.label>ガラス材</RPC_GlassCullet.label>
+    <RPC_GlassCullet.description>ガラスを加工しやすいよう細かく粉砕したカレットです。</RPC_GlassCullet.description>
+
+    <RPC_Kouzo.label>楮</RPC_Kouzo.label>
+    <RPC_Kouzo.description>楮から樹皮を剥ぎ束ねたものです。楮の皮の繊維は長く繊維が絡み合う性質が強く、紙にすることで粘りが強く丈夫になります。</RPC_Kouzo.description>
+
+    <RPC_Cocoon.label>繭</RPC_Cocoon.label>
+    <RPC_Cocoon.description>蚕の幼虫が作る繭です。糸を紡いで織り込むことで最上級の織物になります。</RPC_Cocoon.description>    
+    
+    <WA_Azuki.label>小豆</WA_Azuki.label>
+    <WA_Azuki.description>マメ科の赤い種子です。甘納豆、餡、菓子、赤飯など幅広い用途に用いられます。</WA_Azuki.description>
+    
+    <RPC_Firewood.label>薪</RPC_Firewood.label>
+  　<RPC_Firewood.description>燃料補給にしか使えない木材。</RPC_Firewood.description>
+
+  　<RPC_IronSand.label>砂鉄</RPC_IronSand.label>
+ 　 <RPC_IronSand.description>製鉄の主原料。</RPC_IronSand.description>
+
+  　<RPC_PigIron.label>銑鉄</RPC_PigIron.label>
+ 　 <RPC_PigIron.description>(読み:せんてつ)。砂鉄と木炭を精錬し不純物を除くことで耐久度上昇に成功した銑鉄。錬鉄の材料にもなる。</RPC_PigIron.description>
+ 　 <RPC_PigIron.stuffProps.stuffAdjective>銑鉄</RPC_PigIron.stuffProps.stuffAdjective>
+
+    <RPC_WroughtIron.label>錬鉄</RPC_WroughtIron.label>
+    <RPC_WroughtIron.description>(読み:れんてつ)。銑鉄を叩いて炭素量を調整することでより強靭で柔軟になった鉄。防具製作等に適しています。</RPC_WroughtIron.description>
+    <RPC_WroughtIron.stuffProps.stuffAdjective>錬鉄</RPC_WroughtIron.stuffProps.stuffAdjective>
+
+    <RPC_Tamahagane.label>玉鋼</RPC_Tamahagane.label>
+    <RPC_Tamahagane.description>(読み:たまはがね)。鉧押し(けらおし)法で精錬された高純度鋼の中で最高品質の鋼の総称。剣等のCut属性を持つ武器を作るのに適しています。</RPC_Tamahagane.description>
+    <RPC_Tamahagane.stuffProps.stuffAdjective>玉鋼</RPC_Tamahagane.stuffProps.stuffAdjective>
+    
+    
+</LanguageData>

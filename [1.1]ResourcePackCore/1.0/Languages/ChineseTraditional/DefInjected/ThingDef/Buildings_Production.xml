@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <RPC_GatheringSpot_Dirt.label>土壤採集場</RPC_GatheringSpot_Dirt.label>
+    <RPC_GatheringSpot_Dirt.description>採集土壤用的場所。</RPC_GatheringSpot_Dirt.description>
+        
+    <RPC_GatheringSpot_Sand.label>砂採集場</RPC_GatheringSpot_Sand.label>
+    <RPC_GatheringSpot_Sand.description>採集砂用的場所。</RPC_GatheringSpot_Sand.description>
+            
+    <RPC_GatheringSpot_Gravel.label>礫石採集場</RPC_GatheringSpot_Gravel.label>
+    <RPC_GatheringSpot_Gravel.description>採集礫石用的場所。</RPC_GatheringSpot_Gravel.description>
+                
+    <RPC_GatheringSpot_Ice.label>冰採集場</RPC_GatheringSpot_Ice.label>
+    <RPC_GatheringSpot_Ice.description>採集冰用的場所。</RPC_GatheringSpot_Ice.description>
+    
+    <RPC_GatheringSpot_Mud.label>泥採集場</RPC_GatheringSpot_Mud.label>
+    <RPC_GatheringSpot_Mud.description>採集泥巴用的場所。</RPC_GatheringSpot_Mud.description>
+
+</LanguageData>
