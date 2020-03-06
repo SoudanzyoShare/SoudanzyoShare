@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <RPC_Root.label>RPC</RPC_Root.label>
+
+    <RPC_ResourceStable.label>劣化しない資源</RPC_ResourceStable.label>
+
+    <RPC_Resource.label>資源</RPC_Resource.label>
+
+    <RPC_ResourceRaw.label>生資源</RPC_ResourceRaw.label>
+
+</LanguageData>

@@ -78,9 +78,7 @@
 		<stuffProps>
 			<commonality>0</commonality>
 		</stuffProps>
-		<thingCategories>
-			
-		</thingCategories>
+		<thingCategories><li>RPC_ResourceStable</li></thingCategories>
 		<tradeability>Sellable</tradeability>
 		<tradeTags>
 			
@@ -110,9 +108,7 @@
 		<stuffProps>
 			<commonality>0</commonality>
 		</stuffProps>
-		<thingCategories>
-			
-		</thingCategories>
+		<thingCategories><li>RPC_ResourceStable</li></thingCategories>
 		<tradeability>Sellable</tradeability>
 		<tradeTags>
 			
@@ -142,9 +138,7 @@
 		<stuffProps>
 			<commonality>0</commonality>
 		</stuffProps>
-		<thingCategories>
-			
-		</thingCategories>
+		<thingCategories><li>RPC_ResourceStable</li></thingCategories>
 		<tradeability>Sellable</tradeability>
 		<tradeTags>
 			
@@ -180,9 +174,7 @@
 		<stuffProps>
 			<commonality>0</commonality>
 		</stuffProps>
-		<thingCategories>
-			
-		</thingCategories>
+		<thingCategories><li>RPC_ResourceRaw</li></thingCategories>
 		<tradeability>Sellable</tradeability>
 		<tradeTags>
 			
@@ -213,9 +205,7 @@
 		<stuffProps>
 			<commonality>0</commonality>
 		</stuffProps>
-		<thingCategories>
-			
-		</thingCategories>
+		<thingCategories><li>RPC_Resource</li></thingCategories>
 		<tradeability>Sellable</tradeability>
 		<tradeTags>
 			
@@ -246,9 +236,7 @@
 		<stuffProps>
 			<commonality>0</commonality>
 		</stuffProps>
-		<thingCategories>
-			
-		</thingCategories>
+		<thingCategories><li>RPC_Resource</li></thingCategories>
 		<tradeability>Sellable</tradeability>
 		<tradeTags>
 			
@@ -279,9 +267,7 @@
 		<stuffProps>
 			<commonality>0</commonality>
 		</stuffProps>
-		<thingCategories>
-			
-		</thingCategories>
+		<thingCategories><li>RPC_Resource</li></thingCategories>
 		<tradeability>Sellable</tradeability>
 		<tradeTags>
 			
@@ -332,9 +318,7 @@
 				<compClass>CompColorable</compClass>
 			</li>
 		</comps>
-		<thingCategories>
-			
-		</thingCategories>
+		<thingCategories><li>RPC_Resource</li></thingCategories>
 		<tradeability>Sellable</tradeability>
 		<tradeTags>
 			
@@ -356,8 +340,7 @@
 			<Mass>0.1</Mass>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
-		<thingCategories>
-		</thingCategories>
+		<thingCategories><li>RPC_ResourceStable</li></thingCategories>
 		<tradeTags>
 		</tradeTags>
 		<tradeability>Sellable</tradeability>
@@ -379,8 +362,7 @@
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
 		<tradeability>Sellable</tradeability>
-		<thingCategories>
-		</thingCategories>
+		<thingCategories><li>RPC_ResourceStable</li></thingCategories>
 		<tradeTags>
 		</tradeTags>
 	</ThingDef>
@@ -406,9 +388,7 @@
 		<stuffProps>
 			<commonality>0</commonality>
 		</stuffProps>
-		<thingCategories>
-			
-		</thingCategories>
+		<thingCategories><li>RPC_ResourceStable</li></thingCategories>
 		<tradeability>Sellable</tradeability>
 		<tradeTags>
 			
@@ -442,8 +422,7 @@
             </li>
         </comps>
         <socialPropernessMatters>true</socialPropernessMatters>
-        <thingCategories>
-	</thingCategories>
+        <thingCategories><li>RPC_ResourceRaw</li></thingCategories>
 	<tradeability>Sellable</tradeability>
     </ThingDef>
 
@@ -475,8 +454,7 @@
             </li>
         </comps>
         <socialPropernessMatters>true</socialPropernessMatters>
-        <thingCategories>
-	</thingCategories>
+        <thingCategories><li>RPC_ResourceRaw</li></thingCategories>
 	<tradeability>Sellable</tradeability>
     </ThingDef>
 	
@@ -496,8 +474,7 @@ Weaving the thread by spinning it will become the finest textile.</description>
 			<Mass>0.002</Mass>
 			<Flammability>1.5</Flammability>
 		</statBases>
-		<thingCategories>
-		</thingCategories>
+		<thingCategories><li>RPC_Resource</li></thingCategories>
 		<tradeability>Sellable</tradeability>
 	</ThingDef>
 
@@ -518,8 +495,7 @@ Paper made from Kouzo is strong and lasts long.</description>
 			<Mass>0.002</Mass>
 			<Flammability>0.8</Flammability>
 		</statBases>
-		<thingCategories>
-		</thingCategories>
+		<thingCategories><li>RPC_Resource</li></thingCategories>
 		<tradeability>Sellable</tradeability>
 	</ThingDef>
 	
@@ -551,7 +527,7 @@ Paper made from Kouzo is strong and lasts long.</description>
             </li>
         </comps>
 	<socialPropernessMatters>true</socialPropernessMatters>
-        <thingCategories></thingCategories>
+        <thingCategories><li>RPC_ResourceRaw</li></thingCategories>
         <tradeability>Sellable</tradeability>
     </ThingDef>
 	
@@ -573,7 +549,7 @@ Paper made from Kouzo is strong and lasts long.</description>
             <DeteriorationRate>10</DeteriorationRate>
         </statBases>
         <tradeability>None</tradeability>
-        <thingCategories></thingCategories>
+        <thingCategories><li>RPC_Resource</li></thingCategories>
     </ThingDef>
 	
     <!--=============== 砂鉄 ====================-->
@@ -595,7 +571,7 @@ Paper made from Kouzo is strong and lasts long.</description>
             <DeteriorationRate>10</DeteriorationRate>
         </statBases>
         <tradeability>None</tradeability>
-        <thingCategories></thingCategories>
+        <thingCategories><li>RPC_Resource</li></thingCategories>
     </ThingDef>
 	
     <!--=============== 銑鉄 ====================-->
@@ -621,7 +597,7 @@ Paper made from Kouzo is strong and lasts long.</description>
             <BluntDamageMultiplier>1.25</BluntDamageMultiplier>
         </statBases>
         <useHitPoints>false</useHitPoints>
-        <thingCategories></thingCategories>
+        <thingCategories><li>RPC_ResourceStable</li></thingCategories>
         <stuffProps>
             <categories></categories>
             <constructEffect>ConstructMetal</constructEffect>
@@ -668,7 +644,7 @@ Paper made from Kouzo is strong and lasts long.</description>
             <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
         </statBases>
         <useHitPoints>false</useHitPoints>
-        <thingCategories></thingCategories>
+        <thingCategories><li>RPC_ResourceStable</li></thingCategories>
         <stuffProps>
             <categories></categories>
             <constructEffect>ConstructMetal</constructEffect>
@@ -715,7 +691,7 @@ Paper made from Kouzo is strong and lasts long.</description>
             <SharpDamageMultiplier>1.4</SharpDamageMultiplier>
             <BluntDamageMultiplier>0.8</BluntDamageMultiplier>
         </statBases>
-        <thingCategories></thingCategories>
+        <thingCategories><li>RPC_ResourceStable</li></thingCategories>
         <stuffProps>
             <categories></categories>
             <commonality>0</commonality>

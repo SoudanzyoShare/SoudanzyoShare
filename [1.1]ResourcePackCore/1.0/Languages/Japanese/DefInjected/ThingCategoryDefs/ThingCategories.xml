@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <RPC_Root.label>RPC</RPC_Root.label>
+
+    <RPC_ResourceStable.label>劣化しない資源</RPC_ResourceStable.label>
+
+    <RPC_Resource.label>資源</RPC_Resource.label>
+
+    <RPC_ResourceRaw.label>生資源</RPC_ResourceRaw.label>
+
+</LanguageData>
+
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- RPCルート -->
+
+    <ThingCategoryDef>
+      <defName>RPC_Root</defName>
+      <label>RPC</label>
+      <parent>Root</parent>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+      <iconPath>UI/Icons/ThingCategories/FoodMeals</iconPath>
+    </ThingCategoryDef>
+
+  <!-- 屋外でも劣化しない資源 -->
+
+  <ThingCategoryDef>
+    <defName>RPC_ResourceStable</defName>
+    <label>stable resource</label>
+    <parent>RPC_Root</parent>
+    <iconPath>UI/Icons/ThingCategories/StoneChunks</iconPath>
+  </ThingCategoryDef>
+
+  <!-- 屋外だと劣化する資源 -->
+
+  <ThingCategoryDef>
+    <defName>RPC_Resource</defName>
+    <label>resource</label>
+    <parent>RPC_Root</parent>
+    <iconPath>UI/Icons/ThingCategories/Leathers</iconPath>
+  </ThingCategoryDef>
+
+  <!-- 要冷蔵資源 -->
+
+  <ThingCategoryDef>
+    <defName>RPC_ResourceRaw</defName>
+    <label>raw resource</label>
+    <parent>RPC_Root</parent>
+    <iconPath>UI/Icons/ThingCategories/FoodRaw</iconPath>
+  </ThingCategoryDef>
+
+</Defs>

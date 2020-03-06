@@ -11,8 +11,13 @@ It will be available as soon as you uncomment the resource you want to use.
 
 仕様解説
 　資源：空欄の<thingCategories>を置換することで空から降ってきたり貯蔵できるようになる。
+　　　　以下のRPC用カテゴリを使えば生成を防ぎつつクエストで大量要求されたりしなくなる。
+	便宜上３種類が用意されている。
+		RPC_ResourceStable：屋外でも劣化しない資源
+		RPC_Resource：劣化する一般資源
+		RPC_ResourceRaw：要冷凍資源
 　作業台：空欄の<designationCategory>を置換することでメニューに登場する。
-　　　　　独自作業台であればレシピはすでに登録されている。
+　　　　　土採集場などのRPC独自作業台であればレシピはすでに登録されている。
 　レシピ：空欄の<recipeUsers>にバニラ作業台を指定することで利用できるようになる。
 　　　　　バニラの作業台を使うレシピはすべてこのタイプ。
 　　　　　
