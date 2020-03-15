@@ -89,5 +89,14 @@
     </value>
   </Operation>
 
+		<!--=====対DLCクエストバグ：土壌素材価格を0に（氷は保留）=====-->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RPC_Dirt" or defName="RPC_Gravel" or defName="RPC_Sand" or defName="RPC_Mad"]/statBases/MarketValue</xpath>
+    <value>
+      <MarketValue>0</MarketValue>
+    </value>
+  </Operation>
+
 
 </Patch>
