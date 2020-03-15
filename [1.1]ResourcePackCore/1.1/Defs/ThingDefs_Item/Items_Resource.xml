@@ -67,7 +67,8 @@
 		<soundInteract>Standard_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
 		<statBases>
-			<MarketValue>0.01</MarketValue>
+			<!--<MarketValue>0.01</MarketValue>-->
+			<MarketValue>0</MarketValue>
       			<MaxHitPoints>150</MaxHitPoints>
       			<Mass>0.5</Mass> 
       			<Flammability>0</Flammability>
@@ -97,7 +98,8 @@
 		<soundInteract>Standard_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
 		<statBases>
-			<MarketValue>0.01</MarketValue>
+			<!--<MarketValue>0.01</MarketValue>-->
+			<MarketValue>0</MarketValue>
       			<MaxHitPoints>150</MaxHitPoints>
       			<Mass>0.5</Mass> 
       			<Flammability>0</Flammability>
@@ -127,7 +129,8 @@
 		<soundInteract>Standard_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
 		<statBases>
-			<MarketValue>0.01</MarketValue>
+			<!--<MarketValue>0.01</MarketValue>-->
+			<MarketValue>0</MarketValue>
       			<MaxHitPoints>150</MaxHitPoints>
       			<Mass>0.5</Mass> 
       			<Flammability>0</Flammability>
@@ -357,7 +360,8 @@
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
-			<MarketValue>0.01</MarketValue>
+			<!--<MarketValue>0.01</MarketValue>-->
+			<MarketValue>0</MarketValue>
 			<Mass>1</Mass>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
